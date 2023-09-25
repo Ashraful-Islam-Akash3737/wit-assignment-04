@@ -19,6 +19,13 @@ header .header img {
   width: 100%;
   font-size: 3rem;
 }
+header .header a {
+  border: 1px solid rgba(0, 0, 255, 0.329);
+  border-radius: 30px;
+  text-decoration: none;
+  padding: 5px 12px;
+  font-size: 1.5rem;
+}
 header .header-container {
   display: flex;
   align-items: center;
@@ -30,8 +37,11 @@ header .header-container .logo-container {
 header .header-container .logo-container img {
   width: 100%;
 }
+header .header-container .logo-container:hover img {
+  width: 110%;
+}
 header .header-container .navbar-container {
-  width: 90%;
+  width: 80%;
 }
 header .header-container .navbar-container ul {
   display: flex;
@@ -42,14 +52,17 @@ header .header-container .navbar-container ul li {
   list-style-type: none;
 }
 header .header-container .navbar-container ul li a {
+  border: 1px solid rgba(0, 0, 255, 0.329);
+  border-radius: 30px;
   text-decoration: none;
+  padding: 5px 12px;
   font-size: 1.5rem;
 }
 header .header-container .navbar-container ul li i {
   margin-right: 20px;
 }
 header .header-container .navbar-container ul li button {
-  background-color: #4946fa;
+  background-color: #1613ea;
   padding: 12px 25px 12px 25px;
   border-radius: 55px 55px 55px 55px;
   border: none;
@@ -62,21 +75,21 @@ header .header-container .navbar-container ul li button a i {
   font-size: 1.2rem;
 }
 header .header-container .navbar-container ul li button:hover {
-  background-color: #4946fa;
+  background-color: #42e60c;
   padding: 12px 25px 12px 25px;
   border-radius: 55px 55px 55px 55px;
   border: none;
+  transition: all 2s ease-in-out 0.1s;
 }
 header .header-container .navbar-container ul li button:hover a {
   font-size: 1.5rem;
-  color: white;
+  color: black;
+  transition: all 2s ease-in-out 0.1s;
 }
 header .header-container .navbar-container ul li button:hover a i {
   font-size: 1.2rem;
-}
-header .header-container .navbar-container ul li .sub-list {
-  display: block;
-  flex-direction: column;
+  color: black;
+  transition: all 2s ease-in-out 0.1s;
 }
 header .header-container .navbar-container ul li:hover .sub-list {
   display: block;
@@ -90,13 +103,19 @@ header .header-container .navbar-container ul li:hover .sub-list {
 /* footer section end */
 @media screen and (max-width: 576px) {
   header {
-    margin: 10px 50px;
+    margin: 20px 30px;
     border: none;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
   }
   header .header {
     display: block;
     display: flex;
     border: none;
+    justify-content: center;
+    align-items: center;
+    top: 20px;
   }
   header .header .logo-container {
     width: 40%;
@@ -105,6 +124,51 @@ header .header-container .navbar-container ul li:hover .sub-list {
   }
   header .header .logo-container img {
     width: 100%;
+  }
+  header .header .sign-in {
+    margin-left: 20px;
+    margin-right: 50px;
+  }
+  header .header .sign-in a {
+    text-decoration: none;
+    font-size: 1rem;
+    border: 1px solid rgba(0, 0, 255, 0.329);
+    border-radius: 30px;
+    text-decoration: none;
+    padding: 5px 10px;
+    font-size: 1rem;
+  }
+  header .header .sign-in i {
+    margin-right: 10px;
+  }
+  header .header .sign-in button {
+    display: none;
+    margin-left: 20px;
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header .sign-in button a {
+    font-size: 1rem;
+    color: white;
+  }
+  header .header .sign-in button a i {
+    font-size: 1.2rem;
+  }
+  header .header .sign-in button:hover {
+    display: none;
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header .sign-in button:hover a {
+    font-size: 1rem;
+    color: white;
+  }
+  header .header .sign-in button:hover a i {
+    font-size: 1rem;
   }
   header .header-container {
     display: none;
@@ -172,7 +236,7 @@ header .header-container .navbar-container ul li:hover .sub-list {
 }
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header {
-    margin: 10px 50px;
+    margin: 20px 50px;
     border: none;
   }
   header .header {
@@ -187,6 +251,43 @@ header .header-container .navbar-container ul li:hover .sub-list {
   }
   header .header .logo-container img {
     width: 100%;
+  }
+  header .header .sign-in {
+    margin-left: 30px;
+  }
+  header .header .sign-in a {
+    text-decoration: none;
+    font-size: 1rem;
+  }
+  header .header .sign-in i {
+    margin-right: 10px;
+  }
+  header .header .sign-in button {
+    margin-left: 20px;
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header .sign-in button a {
+    font-size: 1rem;
+    color: white;
+  }
+  header .header .sign-in button a i {
+    font-size: 1.2rem;
+  }
+  header .header .sign-in button:hover {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header .sign-in button:hover a {
+    font-size: 1rem;
+    color: white;
+  }
+  header .header .sign-in button:hover a i {
+    font-size: 1rem;
   }
   header .header-container {
     display: none;
@@ -276,8 +377,11 @@ header .header-container .navbar-container ul li:hover .sub-list {
   header .header-container .logo-container img {
     width: 100%;
   }
+  header .header-container .logo-container:hover img {
+    width: 110%;
+  }
   header .header-container .navbar-container {
-    width: 90%;
+    width: 80%;
   }
   header .header-container .navbar-container ul {
     display: flex;
