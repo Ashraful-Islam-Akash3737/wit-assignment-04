@@ -1,0 +1,331 @@
+* {
+  padding: 0px;
+}
+
+* a {
+  color: black;
+}
+
+/* header section start */
+header {
+  margin: 20px 30px;
+  display: flex;
+}
+header .header {
+  display: none;
+  border: 1px solid salmon;
+}
+header .header img {
+  width: 100%;
+  font-size: 3rem;
+}
+header .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+header .header-container .logo-container {
+  width: 20%;
+}
+header .header-container .logo-container img {
+  width: 100%;
+}
+header .header-container .navbar-container {
+  width: 90%;
+}
+header .header-container .navbar-container ul {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+header .header-container .navbar-container ul li {
+  list-style-type: none;
+}
+header .header-container .navbar-container ul li a {
+  text-decoration: none;
+  font-size: 1.5rem;
+}
+header .header-container .navbar-container ul li i {
+  margin-right: 20px;
+}
+header .header-container .navbar-container ul li button {
+  background-color: #4946fa;
+  padding: 12px 25px 12px 25px;
+  border-radius: 55px 55px 55px 55px;
+  border: none;
+}
+header .header-container .navbar-container ul li button a {
+  font-size: 1.5rem;
+  color: white;
+}
+header .header-container .navbar-container ul li button a i {
+  font-size: 1.2rem;
+}
+header .header-container .navbar-container ul li button:hover {
+  background-color: #4946fa;
+  padding: 12px 25px 12px 25px;
+  border-radius: 55px 55px 55px 55px;
+  border: none;
+}
+header .header-container .navbar-container ul li button:hover a {
+  font-size: 1.5rem;
+  color: white;
+}
+header .header-container .navbar-container ul li button:hover a i {
+  font-size: 1.2rem;
+}
+header .header-container .navbar-container ul li .sub-list {
+  display: block;
+  flex-direction: column;
+}
+header .header-container .navbar-container ul li:hover .sub-list {
+  display: block;
+  flex-direction: column;
+}
+
+/* header section end */
+/* main section start */
+/* main section end */
+/* footer section start */
+/* footer section end */
+@media screen and (max-width: 576px) {
+  header {
+    margin: 10px 50px;
+    border: none;
+  }
+  header .header {
+    display: block;
+    display: flex;
+    border: none;
+  }
+  header .header .logo-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  header .header .logo-container img {
+    width: 100%;
+  }
+  header .header-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-container .logo-container {
+    width: 10%;
+  }
+  header .header-container .logo-container img {
+    width: 100%;
+  }
+  header .header-container .navbar-container {
+    width: 90%;
+  }
+  header .header-container .navbar-container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header .header-container .navbar-container ul li {
+    list-style-type: none;
+  }
+  header .header-container .navbar-container ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  header .header-container .navbar-container ul li i {
+    margin-right: 20px;
+  }
+  header .header-container .navbar-container ul li button {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header-container .navbar-container ul li button a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  header .header-container .navbar-container ul li button a i {
+    font-size: 1.2rem;
+  }
+  header .header-container .navbar-container ul li button:hover {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header-container .navbar-container ul li button:hover a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  header .header-container .navbar-container ul li button:hover a i {
+    font-size: 1.2rem;
+  }
+  header .header-container .navbar-container ul li .sub-list {
+    display: block;
+    flex-direction: column;
+  }
+  header .header-container .navbar-container ul li:hover .sub-list {
+    display: block;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 576px) and (max-width: 992px) {
+  header {
+    margin: 10px 50px;
+    border: none;
+  }
+  header .header {
+    display: block;
+    display: flex;
+    border: none;
+  }
+  header .header .logo-container {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+  header .header .logo-container img {
+    width: 100%;
+  }
+  header .header-container {
+    display: none;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-container .logo-container {
+    width: 10%;
+  }
+  header .header-container .logo-container img {
+    width: 100%;
+  }
+  header .header-container .navbar-container {
+    width: 90%;
+  }
+  header .header-container .navbar-container ul {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  header .header-container .navbar-container ul li {
+    list-style-type: none;
+  }
+  header .header-container .navbar-container ul li a {
+    text-decoration: none;
+    font-size: 2rem;
+  }
+  header .header-container .navbar-container ul li i {
+    margin-right: 20px;
+  }
+  header .header-container .navbar-container ul li button {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header-container .navbar-container ul li button a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  header .header-container .navbar-container ul li button a i {
+    font-size: 1.2rem;
+  }
+  header .header-container .navbar-container ul li button:hover {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header-container .navbar-container ul li button:hover a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  header .header-container .navbar-container ul li button:hover a i {
+    font-size: 1.2rem;
+  }
+  header .header-container .navbar-container ul li .sub-list {
+    display: block;
+    flex-direction: column;
+  }
+  header .header-container .navbar-container ul li:hover .sub-list {
+    display: block;
+    flex-direction: column;
+  }
+}
+@media screen and (min-width: 992px) and (max-width: 1400px) {
+  header {
+    margin: 20px 30px;
+    display: flex;
+  }
+  header .header {
+    display: none;
+    border: 1px solid salmon;
+  }
+  header .header img {
+    width: 100%;
+    font-size: 3rem;
+  }
+  header .header-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  header .header-container .logo-container {
+    width: 20%;
+  }
+  header .header-container .logo-container img {
+    width: 100%;
+  }
+  header .header-container .navbar-container {
+    width: 90%;
+  }
+  header .header-container .navbar-container ul {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+  header .header-container .navbar-container ul li {
+    list-style-type: none;
+  }
+  header .header-container .navbar-container ul li a {
+    text-decoration: none;
+    font-size: 1.5rem;
+  }
+  header .header-container .navbar-container ul li i {
+    margin-right: 20px;
+  }
+  header .header-container .navbar-container ul li button {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header-container .navbar-container ul li button a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  header .header-container .navbar-container ul li button a i {
+    font-size: 1.2rem;
+  }
+  header .header-container .navbar-container ul li button:hover {
+    background-color: #4946fa;
+    padding: 12px 25px 12px 25px;
+    border-radius: 55px 55px 55px 55px;
+    border: none;
+  }
+  header .header-container .navbar-container ul li button:hover a {
+    font-size: 1.5rem;
+    color: white;
+  }
+  header .header-container .navbar-container ul li button:hover a i {
+    font-size: 1.2rem;
+  }
+  header .header-container .navbar-container ul li .sub-list {
+    display: block;
+    flex-direction: column;
+  }
+  header .header-container .navbar-container ul li:hover .sub-list {
+    display: block;
+    flex-direction: column;
+  }
+}/*# sourceMappingURL=style.css.map */
