@@ -1084,6 +1084,53 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+                .banner-content {
+                    text-align: center;
+    
+                    h1 {
+                        font-size: 3.5rem;
+                        color: white;
+                        font-weight: 900;
+                        margin-bottom: 20px;
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: 2rem;
+                        font-weight: 500;
+                        margin-bottom: 30px;
+                    }
+    
+                    .search-here {
+                        position: relative;
+                        display: inline-flex;
+                        flex-direction: column;
+                        text-align: center;
+                        .search {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: #FFFFFF2E;
+                            color: #ffffff;
+                            font-size: 1.2rem;
+                            border-radius: 30px;
+                            margin-bottom: 20px;
+                        }
+    
+                        .submit {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: white;
+                            color: blue;
+                            font-size: .8rem;
+                            border-radius: 30px;
+                            font-size: .8rem;
+                            text-align: center;
+    
+                        }
+                    }
+                }
 
                 .banner-animation {
                     position: absolute;
@@ -1287,6 +1334,52 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+                .banner-content {
+                    text-align: center;
+    
+                    h1 {
+                        font-size: 4rem;
+                        color: white;
+                        font-weight: 900;
+                        margin-bottom: 20px;
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: 2rem;
+                        font-weight: 500;
+                        margin-bottom: 30px;
+                    }
+    
+                    .search-here {
+                        position: relative;
+                        display: inline-flex;
+                        flex-direction: column;
+                        text-align: center;
+                        .search {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: #FFFFFF2E;
+                            color: #ffffff;
+                            font-size: 1.2rem;
+                            border-radius: 30px;
+                            margin-bottom: 20px;
+                        }
+    
+                        .submit {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: white;
+                            color: blue;
+                            font-size: 1rem;
+                            border-radius: 30px;
+                            text-align: center;
+    
+                        }
+                    }
+                }
 
                 .banner-animation {
                     position: absolute;

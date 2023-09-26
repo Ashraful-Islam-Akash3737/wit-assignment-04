@@ -781,6 +781,48 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
     background-size: cover;
     position: relative;
   }
+  main .banner-container .banner-img .banner-content {
+    text-align: center;
+  }
+  main .banner-container .banner-img .banner-content h1 {
+    font-size: 3.5rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  main .banner-container .banner-img .banner-content p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  main .banner-container .banner-img .banner-content .search-here {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .banner-container .banner-img .banner-content .search-here .search {
+    position: relative;
+    padding: 20px 15px;
+    border-color: rgba(255, 255, 255, 0.631372549);
+    background-color: rgba(255, 255, 255, 0.1803921569);
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  main .banner-container .banner-img .banner-content .search-here .submit {
+    position: relative;
+    padding: 20px 15px;
+    border-color: rgba(255, 255, 255, 0.631372549);
+    background-color: white;
+    color: blue;
+    font-size: 0.8rem;
+    border-radius: 30px;
+    font-size: 0.8rem;
+    text-align: center;
+  }
   main .banner-container .banner-img .banner-animation {
     position: absolute;
     flex-direction: column;
@@ -918,6 +960,47 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
+  }
+  main .banner-container .banner-img .banner-content {
+    text-align: center;
+  }
+  main .banner-container .banner-img .banner-content h1 {
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+    margin-bottom: 20px;
+  }
+  main .banner-container .banner-img .banner-content p {
+    color: white;
+    font-size: 2rem;
+    font-weight: 500;
+    margin-bottom: 30px;
+  }
+  main .banner-container .banner-img .banner-content .search-here {
+    position: relative;
+    display: inline-flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  main .banner-container .banner-img .banner-content .search-here .search {
+    position: relative;
+    padding: 20px 15px;
+    border-color: rgba(255, 255, 255, 0.631372549);
+    background-color: rgba(255, 255, 255, 0.1803921569);
+    color: #ffffff;
+    font-size: 1.2rem;
+    border-radius: 30px;
+    margin-bottom: 20px;
+  }
+  main .banner-container .banner-img .banner-content .search-here .submit {
+    position: relative;
+    padding: 20px 15px;
+    border-color: rgba(255, 255, 255, 0.631372549);
+    background-color: white;
+    color: blue;
+    font-size: 1rem;
+    border-radius: 30px;
+    text-align: center;
   }
   main .banner-container .banner-img .banner-animation {
     position: absolute;
