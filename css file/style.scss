@@ -165,7 +165,7 @@ main {
                 text-align: center;
 
                 h1 {
-                    font-size: 3rem;
+                    font-size: 5rem;
                     color: white;
                     font-weight: 900;
                     margin-bottom: 20px;
@@ -173,7 +173,7 @@ main {
 
                 p {
                     color: white;
-                    font-size: 1.5rem;
+                    font-size: 2rem;
                     font-weight: 500;
                     margin-bottom: 30px;
                 }
@@ -579,6 +579,55 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+                .banner-content {
+                    text-align: center;
+    
+                    h1 {
+                        font-size: 3rem;
+                        color: white;
+                        font-weight: 900;
+                        margin-bottom: 30px;
+                        padding: 0px 30px;
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        margin-bottom: 60px;
+                        padding: 0px 20px;
+                    }
+    
+                    .search-here {
+                        position: relative;
+                        display: inline-flex;
+                        flex-direction: column;
+                        text-align: center;
+                        .search {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: #FFFFFF2E;
+                            color: #ffffff;
+                            font-size: 1.2rem;
+                            border-radius: 30px;
+                            margin-bottom: 20px;
+                        }
+    
+                        .submit {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: white;
+                            color: blue;
+                            font-size: .8rem;
+                            border-radius: 30px;
+                            font-size: .8rem;
+                            text-align: center;
+    
+                        }
+                    }
+                }
 
                 .banner-animation {
                     position: absolute;
@@ -844,6 +893,55 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+                .banner-content {
+                    text-align: center;
+    
+                    h1 {
+                        font-size: 4rem;
+                        color: white;
+                        font-weight: 900;
+                        margin-bottom: 30px;
+                        padding: 0px 40px;
+                    }
+    
+                    p {
+                        color: white;
+                        font-size: 2rem;
+                        font-weight: 500;
+                        margin-bottom: 60px;
+                        padding: 0px 30px;
+                    }
+    
+                    .search-here {
+                        position: relative;
+                        display: inline-flex;
+                        flex-direction: column;
+                        text-align: center;
+                        .search {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: #FFFFFF2E;
+                            color: #ffffff;
+                            font-size: 1.2rem;
+                            border-radius: 30px;
+                            margin-bottom: 20px;
+                        }
+    
+                        .submit {
+                            position: relative;
+                            padding: 20px 15px;
+                            border-color: #FFFFFFA1;
+                            background-color: white;
+                            color: blue;
+                            font-size: .8rem;
+                            border-radius: 30px;
+                            font-size: .8rem;
+                            text-align: center;
+    
+                        }
+                    }
+                }
 
                 .banner-animation {
                     position: absolute;
@@ -1088,17 +1186,19 @@ main {
                     text-align: center;
     
                     h1 {
-                        font-size: 3.5rem;
+                        font-size: 5rem;
                         color: white;
                         font-weight: 900;
-                        margin-bottom: 20px;
+                        margin-bottom: 30px;
+                        padding: 0px 80px;
                     }
     
                     p {
                         color: white;
                         font-size: 2rem;
                         font-weight: 500;
-                        margin-bottom: 30px;
+                        margin-bottom: 60px;
+                        padding: 0px 50px;
                     }
     
                     .search-here {
@@ -1338,17 +1438,19 @@ main {
                     text-align: center;
     
                     h1 {
-                        font-size: 4rem;
+                        font-size: 6rem;
                         color: white;
                         font-weight: 900;
-                        margin-bottom: 20px;
+                        margin-bottom: 50px;
+                        padding: 0px 100px;
                     }
     
                     p {
                         color: white;
-                        font-size: 2rem;
+                        font-size: 3rem;
                         font-weight: 500;
-                        margin-bottom: 30px;
+                        margin-bottom: 80px;
+                        padding: 0px 50px;
                     }
     
                     .search-here {
