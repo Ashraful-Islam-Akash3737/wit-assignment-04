@@ -9,7 +9,7 @@
 /* header section start */
 header {
   background-color: white;
-  margin: 0px 10px;
+  margin: 0px 0px;
   margin-bottom: 20px;
   margin-top: 0px;
   display: flex;
@@ -108,6 +108,7 @@ main {
   margin-bottom: 50px;
   margin-left: 10px;
   margin-right: 10px;
+  margin-top: 10px;
 }
 main .banner-container {
   margin: 0px auto;
@@ -146,7 +147,7 @@ main .banner-container .banner-img .banner-content .search-here {
 }
 main .banner-container .banner-img .banner-content .search-here .search {
   position: relative;
-  padding: 10px 15px;
+  padding: 20px 15px;
   border-color: rgba(255, 255, 255, 0.631372549);
   background-color: rgba(255, 255, 255, 0.1803921569);
   color: #ffffff;
@@ -156,12 +157,13 @@ main .banner-container .banner-img .banner-content .search-here .search {
 }
 main .banner-container .banner-img .banner-content .search-here .submit {
   position: relative;
-  padding: 10px 15px;
+  padding: 20px 15px;
   border-color: rgba(255, 255, 255, 0.631372549);
-  background-color: rgba(255, 255, 255, 0.1803921569);
-  color: #ffffff;
+  background-color: white;
+  color: blue;
   font-size: 0.8rem;
   border-radius: 30px;
+  font-size: 0.8rem;
   text-align: center;
 }
 main .banner-container .banner-img .banner-animation {
@@ -200,7 +202,7 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
 /* responsive media query for small device*/
 @media screen and (max-width: 576px) {
   header {
-    margin: 0px 10px;
+    margin: 0px 0px;
     border: none;
     display: flex;
     justify-content: space-evenly;
@@ -458,7 +460,7 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header {
-    margin: 0px 30px;
+    margin: 0px 5px;
     border: none;
     align-items: center;
     border-top: 2px solid blue;
@@ -642,7 +644,7 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
 /* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   header {
-    margin: 0px 50px;
+    margin: 0px 0px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
@@ -811,7 +813,7 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
 /* responsive media query for extra-large device*/
 @media screen and (min-width: 1400px) {
   header {
-    margin: 0px 50px;
+    margin: 0px 0px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;

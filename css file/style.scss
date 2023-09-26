@@ -10,7 +10,7 @@
 /* header section start */
 header {
     background-color: white;
-    margin: 0px 10px;
+    margin: 0px 0px;
     margin-bottom: 20px;
     margin-top: 0px;
     display: flex;
@@ -141,10 +141,11 @@ header {
 
 /* main section start */
 main {
+    
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
-
+    margin-top: 10px;
     .banner-container {
         margin: 0px auto;
 
@@ -184,7 +185,7 @@ main {
                     text-align: center;
                     .search {
                         position: relative;
-                        padding: 10px 15px;
+                        padding: 20px 15px;
                         border-color: #FFFFFFA1;
                         background-color: #FFFFFF2E;
                         color: #ffffff;
@@ -195,13 +196,13 @@ main {
 
                     .submit {
                         position: relative;
-                        padding: 10px 15px;
+                        padding: 20px 15px;
                         border-color: #FFFFFFA1;
-                        background-color: #FFFFFF2E;
-                        color: #ffffff;
+                        background-color: white;
+                        color: blue;
                         font-size: .8rem;
                         border-radius: 30px;
-                        
+                        font-size: .8rem;
                         text-align: center;
 
                     }
@@ -271,7 +272,7 @@ main {
 /* responsive media query for small device*/
 @media screen and (max-width:576px) {
     header {
-        margin: 0px 10px;
+        margin: 0px 0px;
         border: none;
         display: flex;
         justify-content: space-evenly;
@@ -631,7 +632,7 @@ main {
 /* responsive media query for medium device*/
 @media screen and (min-width:576px) and (max-width:992px) {
     header {
-        margin: 0px 30px;
+        margin: 0px 5px;
 
         border: none;
         align-items: center;
@@ -895,11 +896,11 @@ main {
 /* responsive media query for large device*/
 @media screen and (min-width:992px) and (max-width:1400px) {
     header {
-        margin: 0px 50px;
+        margin: 0px 0px;
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
-
+        
 
         .header {
             display: none;
@@ -1136,11 +1137,11 @@ main {
 /* responsive media query for extra-large device*/
 @media screen and (min-width:1400px) {
     header {
-        margin: 0px 50px;
+        margin: 0px 0px;
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
-
+        
 
         .header {
             display: none;
@@ -1272,7 +1273,7 @@ main {
     }
 
     main {
-
+        
         .banner-container {
 
             .banner-img {
