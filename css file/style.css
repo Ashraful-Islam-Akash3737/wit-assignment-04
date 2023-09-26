@@ -8,11 +8,16 @@
 
 /* header section start */
 header {
-  margin: 20px 30px;
+  background-color: white;
+  margin: 0px 10px;
+  margin-bottom: 20px;
+  margin-top: 0px;
   display: flex;
   border-top: 2px solid blue;
   border-bottom: 2px solid blue;
   padding: 20px 0px;
+  z-index: 11;
+  position: relative;
 }
 header .header {
   display: none;
@@ -42,12 +47,14 @@ header .header-container .logo-container img {
 }
 header .header-container .navbar-container {
   width: 80%;
+  margin-left: 40px;
 }
 header .header-container .navbar-container ul {
   display: flex;
   left: 20px;
   justify-content: space-between;
   align-items: center;
+  background-color: transparent;
 }
 header .header-container .navbar-container ul li {
   list-style-type: none;
@@ -97,12 +104,103 @@ header .header-container .navbar-container ul button:hover a i {
 
 /* header section end */
 /* main section start */
+main {
+  margin-bottom: 50px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+main .banner-container {
+  margin: 0px auto;
+}
+main .banner-container .banner-img {
+  z-index: 10;
+  background-image: url("../assets/images/banner-bg.jpg");
+  border-radius: 50px 50px 50px 50px;
+  padding: 245px 10px 245px 10px;
+  margin: 0px 0px 0px 0px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+main .banner-container .banner-img .banner-content {
+  text-align: center;
+}
+main .banner-container .banner-img .banner-content h1 {
+  font-size: 3rem;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 20px;
+}
+main .banner-container .banner-img .banner-content p {
+  color: white;
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+main .banner-container .banner-img .banner-content .search-here {
+  position: relative;
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+}
+main .banner-container .banner-img .banner-content .search-here .search {
+  position: relative;
+  padding: 10px 15px;
+  border-color: rgba(255, 255, 255, 0.631372549);
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  color: #ffffff;
+  font-size: 1.2rem;
+  border-radius: 30px;
+  margin-bottom: 20px;
+}
+main .banner-container .banner-img .banner-content .search-here .submit {
+  position: relative;
+  padding: 10px 15px;
+  border-color: rgba(255, 255, 255, 0.631372549);
+  background-color: rgba(255, 255, 255, 0.1803921569);
+  color: #ffffff;
+  font-size: 0.8rem;
+  border-radius: 30px;
+  text-align: center;
+}
+main .banner-container .banner-img .banner-animation {
+  position: absolute;
+  flex-direction: column;
+}
+main .banner-container .banner-img .banner-animation .spiner-1 {
+  position: absolute;
+  left: 6rem;
+  bottom: 6rem;
+  animation: spiner 30s infinite linear;
+  opacity: 0.4;
+  max-width: 100px;
+}
+main .banner-container .banner-img .banner-animation .spiner-2 {
+  position: absolute;
+  left: 6rem;
+  top: 6rem;
+  opacity: 0.4;
+  max-width: 100px;
+  animation: spiner 30s infinite linear;
+}
+@keyframes spiner {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 /* main section end */
 /* footer section start */
 /* footer section end */
+/* responsive media query */
+/* responsive media query for small device*/
 @media screen and (max-width: 576px) {
   header {
-    margin: 20px 10px;
+    margin: 0px 10px;
     border: none;
     display: flex;
     justify-content: space-evenly;
@@ -212,8 +310,7 @@ header .header-container .navbar-container ul button:hover a i {
   }
   header .header .dropbtn {
     background-color: #4CAF50;
-    position: fixed;
-    top: 47px;
+    top: -25px;
     right: 0px;
     color: white;
     font-size: 16px;
@@ -318,10 +415,50 @@ header .header-container .navbar-container ul button:hover a i {
     display: block;
     flex-direction: column;
   }
+  main .banner-container .banner-img {
+    z-index: 10;
+    background-image: url("../assets/images/banner-bg.jpg");
+    border-radius: 50px 50px 50px 50px;
+    padding: 245px 10px 245px 10px;
+    margin: 0px 0px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  main .banner-container .banner-img .banner-animation {
+    position: absolute;
+    flex-direction: column;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-1 {
+    position: absolute;
+    left: 6rem;
+    bottom: 6rem;
+    animation: spiner 30s infinite linear;
+    opacity: 0.4;
+    max-width: 100px;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-2 {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+    opacity: 0.4;
+    max-width: 100px;
+    animation: spiner 30s infinite linear;
+  }
+  @keyframes spiner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
+/* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
   header {
-    margin: 20px 30px;
+    margin: 0px 30px;
     border: none;
     align-items: center;
     border-top: 2px solid blue;
@@ -383,6 +520,15 @@ header .header-container .navbar-container ul button:hover a i {
     color: white;
     background-color: black;
     transition: all 2s ease-in-out 0.1s;
+  }
+  header .header .dropdown .dropbtn {
+    background-color: #4CAF50;
+    top: -25px;
+    right: 0px;
+    color: white;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
   }
   header .header .dropdown .dropdown-content {
     top: 50px;
@@ -453,10 +599,50 @@ header .header-container .navbar-container ul button:hover a i {
     display: block;
     flex-direction: column;
   }
+  main .banner-container .banner-img {
+    z-index: 10;
+    background-image: url("../assets/images/banner-bg.jpg");
+    border-radius: 50px 50px 50px 50px;
+    padding: 245px 10px 245px 10px;
+    margin: 0px 0px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  main .banner-container .banner-img .banner-animation {
+    position: absolute;
+    flex-direction: column;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-1 {
+    position: absolute;
+    left: 6rem;
+    bottom: 6rem;
+    animation: spiner 30s infinite linear;
+    opacity: 0.4;
+    max-width: 100px;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-2 {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+    opacity: 0.4;
+    max-width: 100px;
+    animation: spiner 30s infinite linear;
+  }
+  @keyframes spiner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
+/* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   header {
-    margin: 20px 50px;
+    margin: 0px 50px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
@@ -582,10 +768,50 @@ header .header-container .navbar-container ul button:hover a i {
     color: black;
     transition: all 2s ease-in-out 0.1s;
   }
+  main .banner-container .banner-img {
+    z-index: 10;
+    background-image: url("../assets/images/banner-bg.jpg");
+    border-radius: 50px 50px 50px 50px;
+    padding: 245px 10px 245px 10px;
+    margin: 0px 0px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  main .banner-container .banner-img .banner-animation {
+    position: absolute;
+    flex-direction: column;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-1 {
+    position: absolute;
+    left: 6rem;
+    bottom: 6rem;
+    animation: spiner 30s infinite linear;
+    opacity: 0.4;
+    max-width: 100px;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-2 {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+    opacity: 0.4;
+    max-width: 100px;
+    animation: spiner 30s infinite linear;
+  }
+  @keyframes spiner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
 }
+/* responsive media query for extra-large device*/
 @media screen and (min-width: 1400px) {
   header {
-    margin: 20px 50px;
+    margin: 0px 50px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
@@ -679,5 +905,44 @@ header .header-container .navbar-container ul button:hover a i {
     font-size: 1.2rem;
     color: black;
     transition: all 2s ease-in-out 0.1s;
+  }
+  main .banner-container .banner-img {
+    z-index: 10;
+    background-image: url("../assets/images/banner-bg.jpg");
+    border-radius: 50px 50px 50px 50px;
+    padding: 245px 10px 245px 10px;
+    margin: 0px 0px 0px 0px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+  }
+  main .banner-container .banner-img .banner-animation {
+    position: absolute;
+    flex-direction: column;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-1 {
+    position: absolute;
+    left: 6rem;
+    bottom: 6rem;
+    animation: spiner 30s infinite linear;
+    opacity: 0.4;
+    max-width: 100px;
+  }
+  main .banner-container .banner-img .banner-animation .spiner-2 {
+    position: absolute;
+    left: 6rem;
+    top: 6rem;
+    opacity: 0.4;
+    max-width: 100px;
+    animation: spiner 30s infinite linear;
+  }
+  @keyframes spiner {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
   }
 }/*# sourceMappingURL=style.css.map */

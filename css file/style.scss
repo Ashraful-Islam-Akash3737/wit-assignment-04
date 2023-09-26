@@ -9,11 +9,16 @@
 
 /* header section start */
 header {
-    margin: 20px 30px;
+    background-color: white;
+    margin: 0px 10px;
+    margin-bottom: 20px;
+    margin-top: 0px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
     padding: 20px 0px;
+    z-index: 11;
+    position: relative;
 
     .header {
         display: none;
@@ -47,22 +52,25 @@ header {
             }
         }
 
-        
+
 
         .navbar-container {
             width: 80%;
+            margin-left: 40px;
 
             ul {
                 display: flex;
                 left: 20px;
                 justify-content: space-between;
                 align-items: center;
+                background-color: transparent;
 
                 li {
                     list-style-type: none;
                     background-color: whi;
+
                     a {
-                       
+
                         border-radius: 30px;
                         text-decoration: none;
                         padding: 5px 12px;
@@ -73,11 +81,12 @@ header {
                         margin-right: 20px;
                     }
 
-                   
+
 
                 }
+
                 button {
-    
+
                     background-color: #1613ea;
                     padding: 12px 25px 12px 25px;
                     border-radius: 55px 55px 55px 55px;
@@ -119,7 +128,7 @@ header {
                 }
 
 
-                
+
             }
         }
     }
@@ -129,8 +138,119 @@ header {
 
 /* header section end */
 
-/* main section start */
 
+/* main section start */
+main {
+    margin-bottom: 50px;
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .banner-container {
+        margin: 0px auto;
+
+        .banner-img {
+
+            z-index: 10;
+            background-image: url("../assets/images/banner-bg.jpg");
+            border-radius: 50px 50px 50px 50px;
+            padding: 245px 10px 245px 10px;
+            margin: 0px 0px 0px 0px;
+            background-position: center center;
+            background-repeat: no-repeat;
+            background-size: cover;
+            position: relative;
+
+            .banner-content {
+                text-align: center;
+
+                h1 {
+                    font-size: 3rem;
+                    color: white;
+                    font-weight: 900;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    color: white;
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    margin-bottom: 30px;
+                }
+
+                .search-here {
+                    position: relative;
+                    display: inline-flex;
+                    flex-direction: column;
+                    text-align: center;
+                    .search {
+                        position: relative;
+                        padding: 10px 15px;
+                        border-color: #FFFFFFA1;
+                        background-color: #FFFFFF2E;
+                        color: #ffffff;
+                        font-size: 1.2rem;
+                        border-radius: 30px;
+                        margin-bottom: 20px;
+                    }
+
+                    .submit {
+                        position: relative;
+                        padding: 10px 15px;
+                        border-color: #FFFFFFA1;
+                        background-color: #FFFFFF2E;
+                        color: #ffffff;
+                        font-size: .8rem;
+                        border-radius: 30px;
+                        
+                        text-align: center;
+
+                    }
+                }
+            }
+
+            .banner-animation {
+                position: absolute;
+                flex-direction: column;
+
+
+                .spiner-1 {
+                    position: absolute;
+                    left: 6rem;
+                    bottom: 6rem;
+                    animation: spiner 30s infinite linear;
+                    opacity: 0.4;
+                    max-width: 100px;
+                }
+
+
+
+                .spiner-2 {
+                    position: absolute;
+                    left: 6rem;
+                    top: 6rem;
+                    opacity: 0.4;
+                    max-width: 100px;
+                    animation: spiner 30s infinite linear;
+                }
+
+
+            }
+
+            @keyframes spiner {
+                from {
+
+                    transform: rotate(0deg);
+                }
+
+                to {
+
+                    transform: rotate(360deg);
+                }
+            }
+        }
+    }
+
+}
 
 /* main section end */
 
@@ -141,9 +261,17 @@ header {
 
 
 
+
+
+
+
+
+/* responsive media query */
+
+/* responsive media query for small device*/
 @media screen and (max-width:576px) {
     header {
-        margin: 20px 10px;
+        margin: 0px 10px;
         border: none;
         display: flex;
         justify-content: space-evenly;
@@ -175,7 +303,7 @@ header {
             .sign-in {
                 margin-left: 20px;
                 margin-right: 50px;
-               
+
                 a {
 
                     text-decoration: none;
@@ -186,7 +314,7 @@ header {
                     padding: 5px 5px;
 
                 }
-                
+
 
                 i {
                     margin-right: 10px;
@@ -232,8 +360,9 @@ header {
 
 
             }
-            .sign-in:hover{
-                .sign{
+
+            .sign-in:hover {
+                .sign {
                     color: white;
                     background-color: black;
                     transition: all 2s ease-in-out 0.1s;
@@ -291,8 +420,8 @@ header {
 
             .dropbtn {
                 background-color: #4CAF50;
-                position: fixed;
-                top: 47px;
+
+                top: -25px;
                 right: 0px;
 
                 color: white;
@@ -322,7 +451,7 @@ header {
                 min-width: 160px;
                 overflow: auto;
                 padding: 5px;
-                
+
                 box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
                 z-index: 1;
             }
@@ -333,7 +462,7 @@ header {
                 text-decoration: none;
                 display: block;
                 text-align: center;
-                
+
             }
 
             .dropdown a:hover {
@@ -433,11 +562,76 @@ header {
             }
         }
     }
+
+    main {
+
+        .banner-container {
+
+            .banner-img {
+
+                z-index: 10;
+                background-image: url("../assets/images/banner-bg.jpg");
+                border-radius: 50px 50px 50px 50px;
+                padding: 245px 10px 245px 10px;
+                margin: 0px 0px 0px 0px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                .banner-animation {
+                    position: absolute;
+                    flex-direction: column;
+
+
+                    .spiner-1 {
+                        position: absolute;
+                        left: 6rem;
+                        bottom: 6rem;
+                        animation: spiner 30s infinite linear;
+                        opacity: 0.4;
+                        max-width: 100px;
+                    }
+
+
+
+                    .spiner-2 {
+                        position: absolute;
+                        left: 6rem;
+                        top: 6rem;
+                        opacity: 0.4;
+                        max-width: 100px;
+                        animation: spiner 30s infinite linear;
+                    }
+
+
+                }
+
+                @keyframes spiner {
+                    from {
+
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+    }
 }
 
+
+
+
+
+/* responsive media query for medium device*/
 @media screen and (min-width:576px) and (max-width:992px) {
     header {
-        margin: 20px 30px;
+        margin: 0px 30px;
 
         border: none;
         align-items: center;
@@ -465,7 +659,7 @@ header {
 
             .sign-in {
                 margin-left: 30px;
-                
+
 
                 a {
                     text-decoration: none;
@@ -511,8 +705,9 @@ header {
                     }
                 }
             }
-            .sign-in:hover{
-                .sign{
+
+            .sign-in:hover {
+                .sign {
                     color: white;
                     background-color: black;
                     transition: all 2s ease-in-out 0.1s;
@@ -521,6 +716,17 @@ header {
             }
 
             .dropdown {
+                .dropbtn {
+                    background-color: #4CAF50;
+
+                    top: -25px;
+                    right: 0px;
+                    color: white;
+                    font-size: 16px;
+                    border: none;
+                    cursor: pointer;
+                }
+
                 .dropdown-content {
                     top: 50px;
 
@@ -621,11 +827,75 @@ header {
             }
         }
     }
+
+    main {
+
+        .banner-container {
+
+            .banner-img {
+
+                z-index: 10;
+                background-image: url("../assets/images/banner-bg.jpg");
+                border-radius: 50px 50px 50px 50px;
+                padding: 245px 10px 245px 10px;
+                margin: 0px 0px 0px 0px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                .banner-animation {
+                    position: absolute;
+                    flex-direction: column;
+
+
+                    .spiner-1 {
+                        position: absolute;
+                        left: 6rem;
+                        bottom: 6rem;
+                        animation: spiner 30s infinite linear;
+                        opacity: 0.4;
+                        max-width: 100px;
+                    }
+
+
+
+                    .spiner-2 {
+                        position: absolute;
+                        left: 6rem;
+                        top: 6rem;
+                        opacity: 0.4;
+                        max-width: 100px;
+                        animation: spiner 30s infinite linear;
+                    }
+
+
+                }
+
+                @keyframes spiner {
+                    from {
+
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+    }
 }
 
+
+
+
+/* responsive media query for large device*/
 @media screen and (min-width:992px) and (max-width:1400px) {
     header {
-        margin: 20px 50px;
+        margin: 0px 50px;
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
@@ -641,6 +911,7 @@ header {
             align-items: center;
             justify-content: center;
             gap: 20px;
+
             .logo-container {
                 width: 20%;
 
@@ -649,46 +920,48 @@ header {
                 }
             }
 
-            
+
 
             .navbar-container {
                 width: 80%;
-               
+
                 ul {
                     display: flex;
                     left: 20px;
                     justify-content: space-between;
                     align-items: center;
-    
+
                     li {
                         list-style-type: none;
-    
+
                         a {
-                            
+
                             border-radius: 30px;
                             text-decoration: none;
                             padding: 5px 12px;
                             font-size: 1.5rem;
                         }
-                        .home{
+
+                        .home {
                             background-color: black;
                             color: white;
                         }
-    
+
                         i {
                             margin-right: 20px;
                         }
-    
-                        
-                        
-    
+
+
+
+
                     }
-    
-    
+
+
                     li:hover {
                         background-color: white;
                         color: white;
                         transition: all 2s ease-in-out 0.1s;
+
                         a {
                             background-color: black;
                             color: white;
@@ -698,44 +971,44 @@ header {
                             font-size: 1.5rem;
                             transition: all 2s ease-in-out 0.1s;
                         }
-    
+
                         i {
                             margin-right: 20px;
                         }
-    
+
                         button {
-    
+
                             background-color: #1613ea;
                             padding: 12px 25px 12px 25px;
                             border-radius: 55px 55px 55px 55px;
                             border: none;
-    
-    
+
+
                             a {
                                 font-size: 1.5rem;
                                 color: white;
-    
-    
+
+
                                 i {
                                     margin-right: 10px;
                                     font-size: 1.2rem;
-    
+
                                 }
                             }
                         }
-    
+
                         button:hover {
                             background-color: #42e60c;
                             padding: 12px 25px 12px 25px;
                             border-radius: 55px 55px 55px 55px;
                             border: none;
                             transition: all 2s ease-in-out 0.1s;
-    
+
                             a {
                                 font-size: 1.5rem;
                                 color: black;
                                 transition: all 2s ease-in-out 0.1s;
-    
+
                                 i {
                                     margin-right: 10px;
                                     font-size: 1.2rem;
@@ -744,10 +1017,11 @@ header {
                                 }
                             }
                         }
-    
+
                     }
+
                     button {
-    
+
                         background-color: #1613ea;
                         padding: 12px 25px 12px 25px;
                         border-radius: 55px 55px 55px 55px;
@@ -793,15 +1067,80 @@ header {
 
 
     }
+
+    main {
+
+        .banner-container {
+
+            .banner-img {
+
+                z-index: 10;
+                background-image: url("../assets/images/banner-bg.jpg");
+                border-radius: 50px 50px 50px 50px;
+                padding: 245px 10px 245px 10px;
+                margin: 0px 0px 0px 0px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                .banner-animation {
+                    position: absolute;
+                    flex-direction: column;
+
+
+                    .spiner-1 {
+                        position: absolute;
+                        left: 6rem;
+                        bottom: 6rem;
+                        animation: spiner 30s infinite linear;
+                        opacity: 0.4;
+                        max-width: 100px;
+                    }
+
+
+
+                    .spiner-2 {
+                        position: absolute;
+                        left: 6rem;
+                        top: 6rem;
+                        opacity: 0.4;
+                        max-width: 100px;
+                        animation: spiner 30s infinite linear;
+                    }
+
+
+                }
+
+                @keyframes spiner {
+                    from {
+
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
+
+    }
 }
 
+
+
+
+
+/* responsive media query for extra-large device*/
 @media screen and (min-width:1400px) {
     header {
-        margin: 20px 50px;
+        margin: 0px 50px;
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
-        
+
 
         .header {
             display: none;
@@ -815,6 +1154,7 @@ header {
             align-items: center;
             justify-content: center;
             gap: 20px;
+
             .logo-container {
                 width: 20%;
 
@@ -823,46 +1163,48 @@ header {
                 }
             }
 
-            
+
 
             .navbar-container {
                 width: 80%;
-                
+
                 ul {
                     display: flex;
                     left: 20px;
                     justify-content: space-between;
                     align-items: center;
-    
+
                     li {
                         list-style-type: none;
-    
+
                         a {
-                            
+
                             border-radius: 30px;
                             text-decoration: none;
                             padding: 5px 12px;
                             font-size: 1.5rem;
                         }
-                        .home{
+
+                        .home {
                             background-color: black;
                             color: white;
                         }
-    
+
                         i {
                             margin-right: 20px;
                         }
-    
-                        
-    
-    
+
+
+
+
                     }
-    
-    
+
+
                     li:hover {
                         background-color: white;
                         color: white;
                         transition: all 2s ease-in-out 0.1s;
+
                         a {
                             background-color: black;
                             transition: all 2s ease-in-out 0.1s;
@@ -872,16 +1214,17 @@ header {
                             padding: 5px 12px;
                             font-size: 1.5rem;
                         }
-    
+
                         i {
                             margin-right: 20px;
                         }
-    
-                        
-    
+
+
+
                     }
+
                     button {
-    
+
                         background-color: #1613ea;
                         padding: 12px 25px 12px 25px;
                         border-radius: 55px 55px 55px 55px;
@@ -925,6 +1268,66 @@ header {
             }
         }
 
+
+    }
+
+    main {
+
+        .banner-container {
+
+            .banner-img {
+
+                z-index: 10;
+                background-image: url("../assets/images/banner-bg.jpg");
+                border-radius: 50px 50px 50px 50px;
+                padding: 245px 10px 245px 10px;
+                margin: 0px 0px 0px 0px;
+                background-position: center center;
+                background-repeat: no-repeat;
+                background-size: cover;
+                position: relative;
+
+                .banner-animation {
+                    position: absolute;
+                    flex-direction: column;
+
+
+                    .spiner-1 {
+                        position: absolute;
+                        left: 6rem;
+                        bottom: 6rem;
+                        animation: spiner 30s infinite linear;
+                        opacity: 0.4;
+                        max-width: 100px;
+                    }
+
+
+
+                    .spiner-2 {
+                        position: absolute;
+                        left: 6rem;
+                        top: 6rem;
+                        opacity: 0.4;
+                        max-width: 100px;
+                        animation: spiner 30s infinite linear;
+                    }
+
+
+                }
+
+                @keyframes spiner {
+                    from {
+
+                        transform: rotate(0deg);
+                    }
+
+                    to {
+
+                        transform: rotate(360deg);
+                    }
+                }
+            }
+        }
 
     }
 }
