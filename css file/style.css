@@ -194,6 +194,21 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
     transform: rotate(360deg);
   }
 }
+main .our-trusted-partners h1 {
+  font-size: 3rem;
+  color: #353535;
+  margin: 50px auto;
+  text-align: center;
+}
+main .our-trusted-partners .animation-container {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  margin: 0px auto;
+  text-align: center;
+}
+main .our-trusted-partners .animation-container .animation-wrapper img {
+  width: 50%;
+}
 
 /* main section end */
 /* footer section start */
@@ -333,7 +348,7 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
   header .header .dropdown-content {
     display: none;
     position: relative;
-    margin-top: 60px;
+    margin-top: 70px;
     background-color: #f9f9f9;
     min-width: 160px;
     overflow: auto;
@@ -347,6 +362,7 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
     text-decoration: none;
     display: block;
     text-align: center;
+    font-size: 0.9px;
   }
   header .header .dropdown a:hover {
     background-color: #f1f1f1;
@@ -577,10 +593,10 @@ main .banner-container .banner-img .banner-animation .spiner-2 {
     cursor: pointer;
   }
   header .header .dropdown .dropdown-content {
-    top: 50px;
+    top: 70px;
   }
   header .header .dropdown .dropdown-content a {
-    font-size: 0.5rem;
+    font-size: 1rem;
   }
   header .header-container {
     display: none;

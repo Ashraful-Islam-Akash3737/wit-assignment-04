@@ -251,6 +251,26 @@ main {
         }
     }
 
+    .our-trusted-partners{
+        h1{
+            font-size: 3rem;
+            color: #353535;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .animation-container{
+            display: grid;
+            grid-template-columns: repeat(5,1fr);
+            margin: 0px auto;
+           text-align: center;
+            .animation-wrapper{
+                img{
+                    width: 50%;
+                }
+            }
+        }
+    }
+
 }
 
 /* main section end */
@@ -447,7 +467,7 @@ main {
             .dropdown-content {
                 display: none;
                 position: relative;
-                margin-top: 60px;
+                margin-top: 70px;
                 background-color: #f9f9f9;
                 min-width: 160px;
                 overflow: auto;
@@ -463,6 +483,7 @@ main {
                 text-decoration: none;
                 display: block;
                 text-align: center;
+                font-size: .9px;
 
             }
 
@@ -778,10 +799,10 @@ main {
                 }
 
                 .dropdown-content {
-                    top: 50px;
+                    top: 70px;
 
                     a {
-                        font-size: .5rem;
+                        font-size: 1rem;
                     }
 
                 }
