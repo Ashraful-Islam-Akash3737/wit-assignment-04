@@ -141,11 +141,12 @@ header {
 
 /* main section start */
 main {
-    
+
     margin-bottom: 50px;
     margin-left: 10px;
     margin-right: 10px;
     margin-top: 10px;
+
     .banner-container {
         margin: 0px auto;
 
@@ -183,6 +184,7 @@ main {
                     display: inline-flex;
                     flex-direction: column;
                     text-align: center;
+
                     .search {
                         position: relative;
                         padding: 20px 15px;
@@ -251,24 +253,37 @@ main {
         }
     }
 
-    .our-trusted-partners{
-        h1{
+    .our-trusted-partners {
+        h1 {
             font-size: 3rem;
             color: #353535;
             margin: 50px auto;
             text-align: center;
         }
-        .animation-container{
+
+        .animation-container {
             display: grid;
-            grid-template-columns: repeat(5,1fr);
+            grid-template-columns: repeat(5, 1fr);
             margin: 0px auto;
-           text-align: center;
-            .animation-wrapper{
-                img{
-                    width: 50%;
+            text-align: center;
+            
+
+            .animation-wrapper {
+                img {
+                    width: 60%;
+                    opacity: .8;
                 }
             }
+
+           
+
+
         }
+        hr{
+            margin: 0px 20px;
+            margin-top: 50px;
+        }
+
     }
 
 }
@@ -600,9 +615,10 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+
                 .banner-content {
                     text-align: center;
-    
+
                     h1 {
                         font-size: 3rem;
                         color: white;
@@ -610,7 +626,7 @@ main {
                         margin-bottom: 30px;
                         padding: 0px 30px;
                     }
-    
+
                     p {
                         color: white;
                         font-size: 1.5rem;
@@ -618,12 +634,13 @@ main {
                         margin-bottom: 60px;
                         padding: 0px 20px;
                     }
-    
+
                     .search-here {
                         position: relative;
                         display: inline-flex;
                         flex-direction: column;
                         text-align: center;
+
                         .search {
                             position: relative;
                             padding: 20px 15px;
@@ -634,7 +651,7 @@ main {
                             border-radius: 30px;
                             margin-bottom: 20px;
                         }
-    
+
                         .submit {
                             position: relative;
                             padding: 20px 15px;
@@ -645,7 +662,7 @@ main {
                             border-radius: 30px;
                             font-size: .8rem;
                             text-align: center;
-    
+
                         }
                     }
                 }
@@ -690,6 +707,40 @@ main {
                     }
                 }
             }
+        }
+
+        .our-trusted-partners {
+            h1 {
+                font-size: 1.5rem;
+                color: #353535;
+                margin: 50px auto;
+                text-align: center;
+            }
+    
+            .animation-container {
+                display: grid;
+                grid-template-columns: repeat(3, 1fr);
+                margin: 0px auto;
+                text-align: center;
+                gap: 30px;
+    
+                .animation-wrapper {
+                    img {
+                        width: 60%;
+                        
+                        
+                    }
+                }
+    
+               
+    
+    
+            }
+            hr{
+                margin: 0px 20px;
+                margin-top: 50px;
+            }
+    
         }
 
     }
@@ -914,9 +965,10 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+
                 .banner-content {
                     text-align: center;
-    
+
                     h1 {
                         font-size: 4rem;
                         color: white;
@@ -924,7 +976,7 @@ main {
                         margin-bottom: 30px;
                         padding: 0px 40px;
                     }
-    
+
                     p {
                         color: white;
                         font-size: 2rem;
@@ -932,12 +984,13 @@ main {
                         margin-bottom: 60px;
                         padding: 0px 30px;
                     }
-    
+
                     .search-here {
                         position: relative;
                         display: inline-flex;
                         flex-direction: column;
                         text-align: center;
+
                         .search {
                             position: relative;
                             padding: 20px 15px;
@@ -948,7 +1001,7 @@ main {
                             border-radius: 30px;
                             margin-bottom: 20px;
                         }
-    
+
                         .submit {
                             position: relative;
                             padding: 20px 15px;
@@ -959,7 +1012,7 @@ main {
                             border-radius: 30px;
                             font-size: .8rem;
                             text-align: center;
-    
+
                         }
                     }
                 }
@@ -1006,6 +1059,39 @@ main {
             }
         }
 
+        .our-trusted-partners {
+            h1 {
+                font-size: 3rem;
+                color: #353535;
+                margin: 50px auto;
+                text-align: center;
+            }
+    
+            .animation-container {
+                display: grid;
+                grid-template-columns: repeat(5, 1fr);
+                margin: 0px auto;
+                text-align: center;
+                gap: 30px;
+    
+                .animation-wrapper {
+                    img {
+                        width: 60%;
+                        opacity: .8;
+                    }
+                }
+    
+               
+    
+    
+            }
+            hr{
+                margin: 0px 20px;
+                margin-top: 100px;
+            }
+    
+        }
+
     }
 }
 
@@ -1019,7 +1105,7 @@ main {
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
-        
+
 
         .header {
             display: none;
@@ -1203,9 +1289,10 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+
                 .banner-content {
                     text-align: center;
-    
+
                     h1 {
                         font-size: 5rem;
                         color: white;
@@ -1213,7 +1300,7 @@ main {
                         margin-bottom: 30px;
                         padding: 0px 80px;
                     }
-    
+
                     p {
                         color: white;
                         font-size: 2rem;
@@ -1221,12 +1308,13 @@ main {
                         margin-bottom: 60px;
                         padding: 0px 50px;
                     }
-    
+
                     .search-here {
                         position: relative;
                         display: inline-flex;
                         flex-direction: column;
                         text-align: center;
+
                         .search {
                             position: relative;
                             padding: 20px 15px;
@@ -1237,7 +1325,7 @@ main {
                             border-radius: 30px;
                             margin-bottom: 20px;
                         }
-    
+
                         .submit {
                             position: relative;
                             padding: 20px 15px;
@@ -1248,7 +1336,7 @@ main {
                             border-radius: 30px;
                             font-size: .8rem;
                             text-align: center;
-    
+
                         }
                     }
                 }
@@ -1309,7 +1397,7 @@ main {
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
-        
+
 
         .header {
             display: none;
@@ -1441,7 +1529,7 @@ main {
     }
 
     main {
-        
+
         .banner-container {
 
             .banner-img {
@@ -1455,9 +1543,10 @@ main {
                 background-repeat: no-repeat;
                 background-size: cover;
                 position: relative;
+
                 .banner-content {
                     text-align: center;
-    
+
                     h1 {
                         font-size: 6rem;
                         color: white;
@@ -1465,7 +1554,7 @@ main {
                         margin-bottom: 50px;
                         padding: 0px 100px;
                     }
-    
+
                     p {
                         color: white;
                         font-size: 3rem;
@@ -1473,12 +1562,13 @@ main {
                         margin-bottom: 80px;
                         padding: 0px 50px;
                     }
-    
+
                     .search-here {
                         position: relative;
                         display: inline-flex;
                         flex-direction: column;
                         text-align: center;
+
                         .search {
                             position: relative;
                             padding: 20px 15px;
@@ -1489,7 +1579,7 @@ main {
                             border-radius: 30px;
                             margin-bottom: 20px;
                         }
-    
+
                         .submit {
                             position: relative;
                             padding: 20px 15px;
@@ -1499,7 +1589,7 @@ main {
                             font-size: 1rem;
                             border-radius: 30px;
                             text-align: center;
-    
+
                         }
                     }
                 }
