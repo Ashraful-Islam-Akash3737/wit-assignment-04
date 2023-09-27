@@ -214,6 +214,70 @@ main .our-trusted-partners hr {
   margin: 0px 20px;
   margin-top: 50px;
 }
+main .sub-banner-1 {
+  margin-top: 150px;
+}
+main .sub-banner-1 .sub-banner-1-container {
+  display: flex;
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img {
+  width: 50%;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content {
+  width: 50%;
+  text-align: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-right: 50px;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #121933;
+  white-space: 50px;
+  margin-bottom: 30px;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #121933;
+  margin-bottom: 20px;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 38px 16px 38px;
+  background-color: #534FF8;
+  color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+  border: none;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary a {
+  color: white;
+  text-decoration: none;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 38px 16px 38px;
+  background-color: #534FF8;
+  color: #ffffff;
+  border-radius: 40px 40px 40px 40px;
+  border: none;
+  transition: all 2s ease-in-out 0.1s;
+}
 
 /* main section end */
 /* footer section start */

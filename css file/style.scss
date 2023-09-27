@@ -266,7 +266,7 @@ main {
             grid-template-columns: repeat(5, 1fr);
             margin: 0px auto;
             text-align: center;
-            
+
 
             .animation-wrapper {
                 img {
@@ -275,15 +275,92 @@ main {
                 }
             }
 
-           
+
 
 
         }
-        hr{
+
+        hr {
             margin: 0px 20px;
             margin-top: 50px;
         }
 
+    }
+
+    .sub-banner-1 {
+        margin-top: 150px;
+
+        .sub-banner-1-container {
+            display: flex;
+            margin: 0px auto;
+            width: 100%;
+            text-align: center;
+
+            .sub-banner-1-container-img {
+                width: 50%;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 20px;
+
+                }
+            }
+
+            .sub-banner-1-container-content {
+                width: 50%;
+                text-align: start;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                margin-right: 50px;
+
+                .content-heading {
+                    font-size: 4rem;
+                    font-weight: 900;
+                    color: #121933;
+                    white-space: 50px;
+                    margin-bottom: 30px;
+                }
+
+                .content-paragraph {
+                    font-size: 2rem;
+                    font-weight: 500;
+                    color: #121933;
+                    margin-bottom: 20px;
+                }
+
+                .btn-primary {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    padding: 18px 38px 16px 38px;
+                    background-color: #534FF8;
+                    color: #ffffff;
+                    border-radius: 40px 40px 40px 40px;
+                    border: none;
+                    a {
+                        color: white;
+                        text-decoration: none;
+
+                    }
+                }
+
+                .btn-primary:hover {
+                    font-size: 2rem;
+                    font-weight: 700;
+                    text-transform: capitalize;
+                    padding: 18px 38px 16px 38px;
+                    background-color: #534FF8;
+                    color: #ffffff;
+                    border-radius: 40px 40px 40px 40px;
+                    border: none;
+                    transition: all 2s ease-in-out 0.1s;
+
+                }
+            }
+        }
     }
 
 }
@@ -716,31 +793,32 @@ main {
                 margin: 50px auto;
                 text-align: center;
             }
-    
+
             .animation-container {
                 display: grid;
                 grid-template-columns: repeat(3, 1fr);
                 margin: 0px auto;
                 text-align: center;
                 gap: 30px;
-    
+
                 .animation-wrapper {
                     img {
                         width: 60%;
-                        
-                        
+
+
                     }
                 }
-    
-               
-    
-    
+
+
+
+
             }
-            hr{
+
+            hr {
                 margin: 0px 20px;
                 margin-top: 50px;
             }
-    
+
         }
 
     }
@@ -1066,30 +1144,31 @@ main {
                 margin: 50px auto;
                 text-align: center;
             }
-    
+
             .animation-container {
                 display: grid;
                 grid-template-columns: repeat(5, 1fr);
                 margin: 0px auto;
                 text-align: center;
                 gap: 30px;
-    
+
                 .animation-wrapper {
                     img {
                         width: 60%;
                         opacity: .8;
                     }
                 }
-    
-               
-    
-    
+
+
+
+
             }
-            hr{
+
+            hr {
                 margin: 0px 20px;
                 margin-top: 100px;
             }
-    
+
         }
 
     }
