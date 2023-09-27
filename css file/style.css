@@ -230,6 +230,15 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img {
   max-width: 100%;
   height: auto;
   border-radius: 20px;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img:hover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transform: skewX(10deg);
+  transform: skewY(10deg);
+  transition: all 2s ease-in-out 0.1s;
 }
 main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content {
   width: 50%;
@@ -258,24 +267,29 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
   font-weight: 700;
   text-transform: capitalize;
   padding: 18px 38px 16px 38px;
-  background-color: #534FF8;
-  color: #ffffff;
+  background-color: #1d06f0;
   border-radius: 40px 40px 40px 40px;
-  border: none;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0.1s;
 }
 main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary a {
-  color: white;
+  color: #fafafc;
   text-decoration: none;
+  transition: all 2s ease-in-out 0.1s;
 }
 main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover {
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
   padding: 18px 38px 16px 38px;
-  background-color: #534FF8;
-  color: #ffffff;
+  background-color: #fafafc;
   border-radius: 40px 40px 40px 40px;
-  border: none;
+  border: 1px solid #1d06f0;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover a {
+  color: #1d06f0;
+  text-decoration: none;
   transition: all 2s ease-in-out 0.1s;
 }
 
@@ -605,6 +619,78 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     margin: 0px 20px;
     margin-top: 50px;
   }
+  main .sub-banner-1 {
+    margin-top: 150px;
+  }
+  main .sub-banner-1 .sub-banner-1-container {
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img {
+    width: 100%;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content {
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-right: 50px;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #121933;
+    white-space: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #1d06f0;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary a {
+    color: #fafafc;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #fafafc;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #1d06f0;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover a {
+    color: #1d06f0;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -854,6 +940,86 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     margin: 0px 20px;
     margin-top: 100px;
   }
+  main .sub-banner-1 {
+    margin-top: 150px;
+  }
+  main .sub-banner-1 .sub-banner-1-container {
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    flex-direction: column;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img {
+    width: 100%;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img:hover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transform: skewX(10deg);
+    transform: skewY(10deg);
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content {
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #121933;
+    white-space: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #1d06f0;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary a {
+    color: #fafafc;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #fafafc;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #1d06f0;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover a {
+    color: #1d06f0;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
@@ -891,6 +1057,7 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     list-style-type: none;
   }
   header .header-container .navbar-container ul li a {
+    transition: all 2s ease-in-out 0.1s;
     border-radius: 30px;
     text-decoration: none;
     padding: 5px 12px;
@@ -925,14 +1092,17 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     padding: 12px 25px 12px 25px;
     border-radius: 55px 55px 55px 55px;
     border: none;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul li:hover button a {
     font-size: 1.5rem;
     color: white;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul li:hover button a i {
     margin-right: 10px;
     font-size: 1.2rem;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul li:hover button:hover {
     background-color: #42e60c;
@@ -947,38 +1117,6 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul li:hover button:hover a i {
-    margin-right: 10px;
-    font-size: 1.2rem;
-    color: black;
-    transition: all 2s ease-in-out 0.1s;
-  }
-  header .header-container .navbar-container ul button {
-    background-color: #1613ea;
-    padding: 12px 25px 12px 25px;
-    border-radius: 55px 55px 55px 55px;
-    border: none;
-  }
-  header .header-container .navbar-container ul button a {
-    font-size: 1.5rem;
-    color: white;
-  }
-  header .header-container .navbar-container ul button a i {
-    margin-right: 10px;
-    font-size: 1.2rem;
-  }
-  header .header-container .navbar-container ul button:hover {
-    background-color: #42e60c;
-    padding: 12px 25px 12px 25px;
-    border-radius: 55px 55px 55px 55px;
-    border: none;
-    transition: all 2s ease-in-out 0.1s;
-  }
-  header .header-container .navbar-container ul button:hover a {
-    font-size: 1.5rem;
-    color: black;
-    transition: all 2s ease-in-out 0.1s;
-  }
-  header .header-container .navbar-container ul button:hover a i {
     margin-right: 10px;
     font-size: 1.2rem;
     color: black;
@@ -1067,6 +1205,85 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
       transform: rotate(360deg);
     }
   }
+  main .sub-banner-1 {
+    margin-top: 150px;
+  }
+  main .sub-banner-1 .sub-banner-1-container {
+    display: flex;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img {
+    width: 100%;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-img img:hover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transform: skewX(10deg);
+    transform: skewY(10deg);
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content {
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 20px;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #121933;
+    margin-bottom: 30px;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #1d06f0;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary a {
+    color: #fafafc;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover {
+    font-size: 2rem;
+    font-weight: 700;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #fafafc;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #1d06f0;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-primary:hover a {
+    color: #1d06f0;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* responsive media query for extra-large device*/
 @media screen and (min-width: 1400px) {
@@ -1109,6 +1326,7 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     text-decoration: none;
     padding: 5px 12px;
     font-size: 1.5rem;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul li .home {
     background-color: black;
@@ -1139,14 +1357,17 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     padding: 12px 25px 12px 25px;
     border-radius: 55px 55px 55px 55px;
     border: none;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul button a {
     font-size: 1.5rem;
     color: white;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul button a i {
     margin-right: 10px;
     font-size: 1.2rem;
+    transition: all 2s ease-in-out 0.1s;
   }
   header .header-container .navbar-container ul button:hover {
     background-color: #42e60c;
