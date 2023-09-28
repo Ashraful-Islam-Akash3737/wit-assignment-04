@@ -443,18 +443,20 @@ main {
                     color: #121933;
                     margin-bottom: 20px;
 
-                    
+
                 }
-                .pointer{
+
+                .pointer {
                     margin-left: 10px;
+
                     .point {
                         font-size: 1.5rem;
                         font-weight: 500;
                         color: black;
                         margin-bottom: 20px;
-                        
-                        
-                        i{
+
+
+                        i {
                             margin-right: 20px;
                             height: 30px;
                             width: 30px;
@@ -465,12 +467,13 @@ main {
                             transition: all 2s ease-in-out 0.1s;
                             text-align: center;
                         }
-                        i:hover{
+
+                        i:hover {
                             margin-right: 20px;
                             height: 30px;
                             width: 30px;
                             border-radius: 50%;
-                            background-color:white ;
+                            background-color: white;
                             color: #1613ea;
                             border: 5px solid gray;
                             transition: all 2s ease-in-out 0.1s;
@@ -479,11 +482,12 @@ main {
                     }
                 }
 
-                .button-container{
+                .button-container {
                     display: flex;
                     align-items: center;
                     gap: 30px;
                     margin-top: 30px;
+
                     .btn-primary {
                         font-size: 2rem;
                         font-weight: 700;
@@ -493,15 +497,15 @@ main {
                         border-radius: 40px 40px 40px 40px;
                         border: 1px solid transparent;
                         transition: all 2s ease-in-out 0.1s;
-    
+
                         a {
                             color: #fafafc;
                             text-decoration: none;
                             transition: all 2s ease-in-out 0.1s;
-    
+
                         }
                     }
-    
+
                     .btn-primary:hover {
                         font-size: 2rem;
                         font-weight: 700;
@@ -511,26 +515,29 @@ main {
                         border-radius: 40px 40px 40px 40px;
                         border: 1px solid #1d06f0;
                         transition: all 2s ease-in-out 0.1s;
-    
+
                         a {
                             color: #1d06f0;
                             text-decoration: none;
                             transition: all 2s ease-in-out 0.1s;
-    
+
                         }
                     }
-                    .free-trial{
-                        
-                        a{
+
+                    .free-trial {
+
+                        a {
                             text-decoration: none;
                             font-size: 1.5rem;
                             font-weight: 600;
                             transition: all 2s ease-in-out 0.1s;
-                            i{
+
+                            i {
                                 margin-left: 20px;
                             }
                         }
-                        a:hover{
+
+                        a:hover {
                             text-decoration: none;
                             font-size: 1.5rem;
                             color: #1239c5;
@@ -540,7 +547,75 @@ main {
 
                 }
 
-                
+
+            }
+        }
+    }
+
+
+    .about-tool {
+        margin-top: 100px;
+        background-color: #fef4f6;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        .content-heading {
+            font-size: 4rem;
+            font-weight: 900;
+            color: #121933;
+            white-space: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+        }
+
+        .content-paragraph {
+            font-size: 2rem;
+            font-weight: 500;
+            color: #121933;
+            margin-bottom: 20px;
+            text-align: center;
+            max-width: 1140px;
+        }
+
+        .about-tool-container {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            background-color: #f1f1f1;
+            
+            margin-bottom: 50px;
+
+            .about-tool-container-info {
+
+                display: inline-flex;
+                flex-direction: column;
+                align-items: center;
+
+                .about-tool-container-img {
+                    img {
+                        max-width: auto;
+                    }
+                }
+
+                .about-tool-container-content {
+                    .about-heading {
+                        font-size: 2.5rem;
+                        font-weight: 900;
+                        color: #121933;
+                        white-space: 50px;
+                        margin-bottom: 30px;
+                        text-align: center;
+                    }
+
+                    .about-paragraph {
+                        font-size: 1.3rem;
+                        font-weight: 500;
+                        color: #121933;
+                        margin-bottom: 20px;
+                        text-align: center;
+                        max-width: 1140px;
+                    }
+                }
             }
         }
     }
@@ -1091,7 +1166,7 @@ main {
 
         .sub-banner-2 {
             margin-top: 150px;
-    
+
             .sub-banner-2-container {
                 display: flex;
                 margin: 0px auto;
@@ -1099,17 +1174,17 @@ main {
                 flex-direction: column-reverse;
                 text-align: start;
                 gap: 100px;
-    
+
                 .sub-banner-2-container-img {
                     max-width: 100%;
-    
+
                     img {
                         max-width: 100%;
                         height: auto;
                         border-radius: 20px;
                         transition: all 2s ease-in-out 0.1s;
                     }
-    
+
                     img:hover {
                         max-width: 100%;
                         height: auto;
@@ -1117,21 +1192,21 @@ main {
                         transform: skewX(10deg);
                         transform: skewY(10deg);
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
-    
+
+
                 }
-    
+
                 .sub-banner-2-container-content {
                     max-width: 100%;
                     text-align: start;
-    
+
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     margin-left: 0px;
-    
+
                     .content-heading {
                         font-size: 3rem;
                         font-weight: 900;
@@ -1139,25 +1214,27 @@ main {
                         white-space: 50px;
                         margin-bottom: 30px;
                     }
-    
+
                     .content-paragraph {
                         font-size: 1.5rem;
                         font-weight: 500;
                         color: #121933;
                         margin-bottom: 20px;
-    
-                        
+
+
                     }
-                    .pointer{
+
+                    .pointer {
                         margin-left: 10px;
+
                         .point {
                             font-size: 1.5rem;
                             font-weight: 500;
                             color: black;
                             margin-bottom: 20px;
-                            
-                            
-                            i{
+
+
+                            i {
                                 margin-right: 5px;
                                 height: 30px;
                                 width: 30px;
@@ -1168,12 +1245,13 @@ main {
                                 transition: all 2s ease-in-out 0.1s;
                                 text-align: center;
                             }
-                            i:hover{
+
+                            i:hover {
                                 margin-right: 5px;
                                 height: 30px;
                                 width: 30px;
                                 border-radius: 50%;
-                                background-color:white ;
+                                background-color: white;
                                 color: #1613ea;
                                 border: 5px solid gray;
                                 transition: all 2s ease-in-out 0.1s;
@@ -1181,13 +1259,14 @@ main {
                             }
                         }
                     }
-    
-                    .button-container{
+
+                    .button-container {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         gap: 30px;
                         margin-top: 30px;
+
                         .btn-primary {
                             font-size: 2rem;
                             font-weight: 700;
@@ -1197,15 +1276,15 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid transparent;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #fafafc;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-        
+
                         .btn-primary:hover {
                             font-size: 2rem;
                             font-weight: 700;
@@ -1215,36 +1294,39 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid #1d06f0;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #1d06f0;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-                        .free-trial{
-                            
-                            a{
+
+                        .free-trial {
+
+                            a {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 font-weight: 600;
                                 transition: all 2s ease-in-out 0.1s;
-                                i{
+
+                                i {
                                     margin-left: 20px;
                                 }
                             }
-                            a:hover{
+
+                            a:hover {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 color: #1239c5;
                                 transition: all 2s ease-in-out 0.1s;
                             }
                         }
-    
+
                     }
-    
-                    
+
+
                 }
             }
         }
@@ -1698,7 +1780,7 @@ main {
 
         .sub-banner-2 {
             margin-top: 150px;
-    
+
             .sub-banner-2-container {
                 display: flex;
                 margin: 0px auto;
@@ -1706,17 +1788,18 @@ main {
                 flex-direction: column-reverse;
                 text-align: start;
                 gap: 100px;
-    
+
                 .sub-banner-2-container-img {
                     max-width: 100%;
                     text-align: center;
+
                     img {
                         max-width: 100%;
                         height: auto;
                         border-radius: 20px;
                         transition: all 2s ease-in-out 0.1s;
                     }
-    
+
                     img:hover {
                         max-width: 100%;
                         height: auto;
@@ -1724,21 +1807,21 @@ main {
                         transform: skewX(10deg);
                         transform: skewY(10deg);
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
-    
+
+
                 }
-    
+
                 .sub-banner-2-container-content {
                     max-width: 100%;
                     text-align: start;
-    
+
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     margin-left: 0px;
-    
+
                     .content-heading {
                         font-size: 3.5rem;
                         font-weight: 900;
@@ -1746,25 +1829,27 @@ main {
                         white-space: 50px;
                         margin-bottom: 30px;
                     }
-    
+
                     .content-paragraph {
                         font-size: 2rem;
                         font-weight: 500;
                         color: #121933;
                         margin-bottom: 20px;
-    
-                        
+
+
                     }
-                    .pointer{
+
+                    .pointer {
                         margin-left: 10px;
+
                         .point {
                             font-size: 1.5rem;
                             font-weight: 500;
                             color: black;
                             margin-bottom: 20px;
-                            
-                            
-                            i{
+
+
+                            i {
                                 margin-right: 5px;
                                 height: 30px;
                                 width: 30px;
@@ -1775,12 +1860,13 @@ main {
                                 transition: all 2s ease-in-out 0.1s;
                                 text-align: center;
                             }
-                            i:hover{
+
+                            i:hover {
                                 margin-right: 5px;
                                 height: 30px;
                                 width: 30px;
                                 border-radius: 50%;
-                                background-color:white ;
+                                background-color: white;
                                 color: #1613ea;
                                 border: 5px solid gray;
                                 transition: all 2s ease-in-out 0.1s;
@@ -1788,13 +1874,14 @@ main {
                             }
                         }
                     }
-    
-                    .button-container{
+
+                    .button-container {
                         display: flex;
                         align-items: center;
                         flex-direction: column;
                         gap: 30px;
                         margin-top: 30px;
+
                         .btn-primary {
                             font-size: 2rem;
                             font-weight: 700;
@@ -1804,15 +1891,15 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid transparent;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #fafafc;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-        
+
                         .btn-primary:hover {
                             font-size: 2rem;
                             font-weight: 700;
@@ -1822,36 +1909,39 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid #1d06f0;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #1d06f0;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-                        .free-trial{
-                            
-                            a{
+
+                        .free-trial {
+
+                            a {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 font-weight: 600;
                                 transition: all 2s ease-in-out 0.1s;
-                                i{
+
+                                i {
                                     margin-left: 20px;
                                 }
                             }
-                            a:hover{
+
+                            a:hover {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 color: #1239c5;
                                 transition: all 2s ease-in-out 0.1s;
                             }
                         }
-    
+
                     }
-    
-                    
+
+
                 }
             }
         }
@@ -2208,47 +2298,48 @@ main {
 
         .sub-banner-2 {
             margin-top: 150px;
-    
+
             .sub-banner-2-container {
                 display: flex;
                 margin: 0px auto;
                 width: 100%;
-    
+
                 text-align: start;
                 gap: 100px;
-    
+
                 .sub-banner-2-container-img {
                     max-width: 50%;
                     text-align: center;
+
                     img {
                         max-width: 100%;
                         height: 100%;
                         border-radius: 20px;
                         transition: all 2s ease-in-out 0.1s;
                     }
-    
+
                     img:hover {
                         max-width: 100%;
-                       
+
                         border-radius: 20px;
                         transform: skewX(10deg);
                         transform: skewY(10deg);
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
-    
+
+
                 }
-    
+
                 .sub-banner-2-container-content {
                     max-width: 50%;
                     text-align: start;
-    
+
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     margin-left: 50px;
-    
+
                     .content-heading {
                         font-size: 3rem;
                         font-weight: 900;
@@ -2256,25 +2347,27 @@ main {
                         white-space: 50px;
                         margin-bottom: 30px;
                     }
-    
+
                     .content-paragraph {
                         font-size: 1.5rem;
                         font-weight: 500;
                         color: #121933;
                         margin-bottom: 20px;
-    
-                        
+
+
                     }
-                    .pointer{
+
+                    .pointer {
                         margin-left: 10px;
+
                         .point {
                             font-size: 1.5rem;
                             font-weight: 500;
                             color: black;
                             margin-bottom: 20px;
-                            
-                            
-                            i{
+
+
+                            i {
                                 margin-right: 20px;
                                 height: 30px;
                                 width: 30px;
@@ -2285,12 +2378,13 @@ main {
                                 transition: all 2s ease-in-out 0.1s;
                                 text-align: center;
                             }
-                            i:hover{
+
+                            i:hover {
                                 margin-right: 20px;
                                 height: 30px;
                                 width: 30px;
                                 border-radius: 50%;
-                                background-color:white ;
+                                background-color: white;
                                 color: #1613ea;
                                 border: 5px solid gray;
                                 transition: all 2s ease-in-out 0.1s;
@@ -2298,12 +2392,13 @@ main {
                             }
                         }
                     }
-    
-                    .button-container{
+
+                    .button-container {
                         display: flex;
                         align-items: center;
                         gap: 30px;
                         margin-top: 30px;
+
                         .btn-primary {
                             font-size: 2rem;
                             font-weight: 700;
@@ -2313,15 +2408,15 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid transparent;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #fafafc;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-        
+
                         .btn-primary:hover {
                             font-size: 2rem;
                             font-weight: 700;
@@ -2331,36 +2426,39 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid #1d06f0;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #1d06f0;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-                        .free-trial{
-                            
-                            a{
+
+                        .free-trial {
+
+                            a {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 font-weight: 600;
                                 transition: all 2s ease-in-out 0.1s;
-                                i{
+
+                                i {
                                     margin-left: 20px;
                                 }
                             }
-                            a:hover{
+
+                            a:hover {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 color: #1239c5;
                                 transition: all 2s ease-in-out 0.1s;
                             }
                         }
-    
+
                     }
-    
-                    
+
+
                 }
             }
         }
@@ -2624,25 +2722,25 @@ main {
 
         .sub-banner-2 {
             margin-top: 150px;
-    
+
             .sub-banner-2-container {
                 display: flex;
                 margin: 0px auto;
                 width: 100%;
-    
+
                 text-align: start;
                 gap: 100px;
-    
+
                 .sub-banner-2-container-img {
                     max-width: 50%;
-    
+
                     img {
                         max-width: 100%;
                         height: auto;
                         border-radius: 20px;
                         transition: all 2s ease-in-out 0.1s;
                     }
-    
+
                     img:hover {
                         max-width: 100%;
                         height: auto;
@@ -2650,21 +2748,21 @@ main {
                         transform: skewX(10deg);
                         transform: skewY(10deg);
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
-    
+
+
                 }
-    
+
                 .sub-banner-2-container-content {
                     max-width: 50%;
                     text-align: start;
-    
+
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
                     margin-left: 50px;
-    
+
                     .content-heading {
                         font-size: 4rem;
                         font-weight: 900;
@@ -2672,25 +2770,27 @@ main {
                         white-space: 50px;
                         margin-bottom: 30px;
                     }
-    
+
                     .content-paragraph {
                         font-size: 2rem;
                         font-weight: 500;
                         color: #121933;
                         margin-bottom: 20px;
-    
-                        
+
+
                     }
-                    .pointer{
+
+                    .pointer {
                         margin-left: 10px;
+
                         .point {
                             font-size: 1.5rem;
                             font-weight: 500;
                             color: black;
                             margin-bottom: 20px;
-                            
-                            
-                            i{
+
+
+                            i {
                                 margin-right: 20px;
                                 height: 30px;
                                 width: 30px;
@@ -2701,12 +2801,13 @@ main {
                                 transition: all 2s ease-in-out 0.1s;
                                 text-align: center;
                             }
-                            i:hover{
+
+                            i:hover {
                                 margin-right: 20px;
                                 height: 30px;
                                 width: 30px;
                                 border-radius: 50%;
-                                background-color:white ;
+                                background-color: white;
                                 color: #1613ea;
                                 border: 5px solid gray;
                                 transition: all 2s ease-in-out 0.1s;
@@ -2714,12 +2815,13 @@ main {
                             }
                         }
                     }
-    
-                    .button-container{
+
+                    .button-container {
                         display: flex;
                         align-items: center;
                         gap: 30px;
                         margin-top: 30px;
+
                         .btn-primary {
                             font-size: 2rem;
                             font-weight: 700;
@@ -2729,15 +2831,15 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid transparent;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #fafafc;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-        
+
                         .btn-primary:hover {
                             font-size: 2rem;
                             font-weight: 700;
@@ -2747,36 +2849,39 @@ main {
                             border-radius: 40px 40px 40px 40px;
                             border: 1px solid #1d06f0;
                             transition: all 2s ease-in-out 0.1s;
-        
+
                             a {
                                 color: #1d06f0;
                                 text-decoration: none;
                                 transition: all 2s ease-in-out 0.1s;
-        
+
                             }
                         }
-                        .free-trial{
-                            
-                            a{
+
+                        .free-trial {
+
+                            a {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 font-weight: 600;
                                 transition: all 2s ease-in-out 0.1s;
-                                i{
+
+                                i {
                                     margin-left: 20px;
                                 }
                             }
-                            a:hover{
+
+                            a:hover {
                                 text-decoration: none;
                                 font-size: 1.5rem;
                                 color: #1239c5;
                                 transition: all 2s ease-in-out 0.1s;
                             }
                         }
-    
+
                     }
-    
-                    
+
+
                 }
             }
         }
