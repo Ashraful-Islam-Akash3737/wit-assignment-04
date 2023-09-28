@@ -292,6 +292,84 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
   text-decoration: none;
   transition: all 2s ease-in-out 0.1s;
 }
+main .sub-banner-2 {
+  margin-top: 150px;
+}
+main .sub-banner-2 .sub-banner-2-container {
+  display: flex;
+  margin: 0px auto;
+  width: 100%;
+  text-align: start;
+  gap: 100px;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-img {
+  max-width: 50%;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-img img:hover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transform: skewX(10deg);
+  transform: skewY(10deg);
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content {
+  max-width: 50%;
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-left: 50px;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .content-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #121933;
+  white-space: 50px;
+  margin-bottom: 30px;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .content-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #121933;
+  margin-bottom: 20px;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .btn-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 38px 16px 38px;
+  background-color: #1d06f0;
+  border-radius: 40px 40px 40px 40px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .btn-primary a {
+  color: #fafafc;
+  text-decoration: none;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .btn-primary:hover {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 38px 16px 38px;
+  background-color: #fafafc;
+  border-radius: 40px 40px 40px 40px;
+  border: 1px solid #1d06f0;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .btn-primary:hover a {
+  color: #1d06f0;
+  text-decoration: none;
+  transition: all 2s ease-in-out 0.1s;
+}
 
 /* main section end */
 /* footer section start */
@@ -613,7 +691,7 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     gap: 30px;
   }
   main .our-trusted-partners .animation-container .animation-wrapper img {
-    width: 60%;
+    width: 100%;
   }
   main .our-trusted-partners hr {
     margin: 0px 20px;
@@ -974,6 +1052,7 @@ main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .btn-
     display: flex;
     flex-direction: column;
     justify-content: center;
+    margin-top: 30px;
   }
   main .sub-banner-1 .sub-banner-1-container .sub-banner-1-container-content .content-heading {
     font-size: 3rem;
