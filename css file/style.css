@@ -513,6 +513,83 @@ main .about-tool .about-tool-container .about-tool-container-info .about-tool-co
   text-align: center;
   max-width: 1140px;
 }
+main .sub-banner-3 {
+  margin-top: 150px;
+}
+main .sub-banner-3 .sub-banner-3-container {
+  display: flex;
+  margin: 0px auto;
+  width: 100%;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img {
+  width: 50%;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img img:hover {
+  max-width: 100%;
+  height: auto;
+  border-radius: 20px;
+  transform: skewX(10deg);
+  transform: skewY(10deg);
+  transition: all 2s ease-in-out 0.1s;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content {
+  width: 50%;
+  text-align: start;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .content-heading {
+  font-size: 3rem;
+  font-weight: 900;
+  color: #121933;
+  white-space: 50px;
+  margin-bottom: 30px;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .content-paragraph {
+  font-size: 1.5rem;
+  font-weight: 500;
+  color: #121933;
+  margin-bottom: 20px;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container {
+  display: flex;
+  flex-direction: column;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  background-color: #fef4f6;
+  border-radius: 20px;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 img {
+  max-width: 10%;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 .result-container-content .content-heading {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #121933;
+  white-space: 50px;
+  margin-bottom: 10px;
+}
+main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 .result-container-content .content-paragraph {
+  font-size: 1rem;
+  font-weight: 500;
+  color: #121933;
+  margin-bottom: 20px;
+}
 
 /* main section end */
 /* footer section start */
@@ -1133,6 +1210,84 @@ main .about-tool .about-tool-container .about-tool-container-info .about-tool-co
     text-align: center;
     max-width: 1140px;
   }
+  main .sub-banner-3 {
+    margin-top: 150px;
+  }
+  main .sub-banner-3 .sub-banner-3-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img {
+    width: 100%;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img img:hover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transform: skewX(10deg);
+    transform: skewY(10deg);
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content {
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #121933;
+    white-space: 50px;
+    margin-bottom: 30px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container {
+    display: flex;
+    flex-direction: column;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fef4f6;
+    border-radius: 20px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 img {
+    max-width: 10%;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 .result-container-content .content-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #121933;
+    white-space: 50px;
+    margin-bottom: 10px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 .result-container-content .content-paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
+  }
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -1684,6 +1839,84 @@ main .about-tool .about-tool-container .about-tool-container-info .about-tool-co
     margin-bottom: 20px;
     text-align: center;
     max-width: 1140px;
+  }
+  main .sub-banner-3 {
+    margin-top: 150px;
+  }
+  main .sub-banner-3 .sub-banner-3-container {
+    display: flex;
+    flex-direction: column;
+    margin: 0px auto;
+    width: 100%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img {
+    width: 100%;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-img img:hover {
+    max-width: 100%;
+    height: auto;
+    border-radius: 20px;
+    transform: skewX(10deg);
+    transform: skewY(10deg);
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content {
+    width: 100%;
+    text-align: start;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    color: #121933;
+    white-space: 50px;
+    margin-bottom: 30px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .content-paragraph {
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container {
+    display: flex;
+    flex-direction: column;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    background-color: #fef4f6;
+    border-radius: 20px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 img {
+    max-width: 10%;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 .result-container-content .content-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    color: #121933;
+    white-space: 50px;
+    margin-bottom: 10px;
+  }
+  main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .result-container .result-container-1 .result-container-content .content-paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    color: #121933;
+    margin-bottom: 20px;
   }
 }
 /* responsive media query for large device*/

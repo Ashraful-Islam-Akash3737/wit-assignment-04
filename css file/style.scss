@@ -561,6 +561,7 @@ main {
         flex-direction: column;
         align-items: center;
         padding-bottom: 100px;
+
         .content-heading {
             margin-top: 30px;
             font-size: 4rem;
@@ -583,7 +584,7 @@ main {
         .about-tool-container {
             display: grid;
             grid-template-columns: repeat(3, 1fr);
-            
+
             gap: 30px;
             margin: auto 60px;
 
@@ -595,7 +596,7 @@ main {
                 justify-content: center;
                 border-radius: 40px;
                 height: 100%;
-                
+
 
                 .about-tool-container-img {
                     text-align: center;
@@ -618,6 +619,7 @@ main {
                 .about-tool-container-content {
                     height: 50%;
                     padding: 40px 10px;
+
                     .about-heading {
                         font-size: 2.5rem;
                         font-weight: 900;
@@ -652,6 +654,105 @@ main {
                         margin-bottom: 20px;
                         text-align: center;
                         max-width: 1140px;
+                    }
+                }
+            }
+        }
+    }
+
+
+    .sub-banner-3 {
+        margin-top: 150px;
+
+        .sub-banner-3-container {
+            display: flex;
+            margin: 0px auto;
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+            .sub-banner-3-container-img {
+                width: 50%;
+
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 20px;
+                    transition: all 2s ease-in-out 0.1s;
+
+                }
+
+                img:hover {
+                    max-width: 100%;
+                    height: auto;
+                    border-radius: 20px;
+                    transform: skewX(10deg);
+                    transform: skewY(10deg);
+                    transition: all 2s ease-in-out 0.1s;
+
+                }
+
+
+            }
+
+            .sub-banner-3-container-content {
+                width: 50%;
+                text-align: start;
+                align-items: center;
+                display: flex;
+                flex-direction: column;
+                justify-content: center;
+                
+
+                .content-heading {
+                    font-size: 3rem;
+                    font-weight: 900;
+                    color: #121933;
+                    white-space: 50px;
+                    margin-bottom: 30px;
+                }
+
+                .content-paragraph {
+                    font-size: 1.5rem;
+                    font-weight: 500;
+                    color: #121933;
+                    margin-bottom: 20px;
+                }
+
+                .result-container {
+                    display: flex;
+                    flex-direction: column;
+
+
+                    .result-container-1 {
+                        display: flex;
+                        align-items: center;
+                        margin-bottom: 20px;
+                        background-color: #fef4f6;
+                        border-radius: 20px;
+
+                        img {
+                            max-width: 10%;
+                        }
+
+                        .result-container-content {
+                            .content-heading {
+                                font-size: 2rem;
+                                font-weight: 900;
+                                color: #121933;
+                                white-space: 50px;
+                                margin-bottom: 10px;
+                            }
+
+                            .content-paragraph {
+                                font-size: 1rem;
+                                font-weight: 500;
+                                color: #121933;
+                                margin-bottom: 20px;
+                            }
+                        }
                     }
                 }
             }
@@ -1376,6 +1477,7 @@ main {
             flex-direction: column;
             align-items: center;
             padding-bottom: 100px;
+
             .content-heading {
                 font-size: 4rem;
                 font-weight: 900;
@@ -1383,7 +1485,7 @@ main {
                 margin-bottom: 30px;
                 text-align: center;
             }
-    
+
             .content-paragraph {
                 font-size: 2rem;
                 font-weight: 500;
@@ -1393,14 +1495,14 @@ main {
                 max-width: 1140px;
                 margin-bottom: 50px;
             }
-    
+
             .about-tool-container {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
-                
+
                 gap: 30px;
                 margin: auto 20px;
-    
+
                 .about-tool-container-info {
                     background-color: #faf9f9;
                     display: inline-flex;
@@ -1409,56 +1511,57 @@ main {
                     justify-content: center;
                     border-radius: 40px;
                     height: 100%;
-                    
-    
+
+
                     .about-tool-container-img {
                         text-align: center;
                         width: 100px;
                         height: 50%;
-    
+
                         img {
                             padding-top: 20px;
                             max-width: 100px;
                             transition: all 1s ease-in-out 0.1s;
                         }
-    
+
                         img:hover {
                             padding-top: 20px;
                             max-width: 80px;
                             transition: all 1s ease-in-out 0.1s;
                         }
                     }
-    
+
                     .about-tool-container-content {
                         height: 50%;
                         padding: 40px 10px;
+
                         .about-heading {
                             font-size: 2.5rem;
                             font-weight: 900;
                             margin-bottom: 30px;
                             text-align: center;
                             text-decoration: none;
-    
+
                             a {
                                 text-decoration: none;
                                 transition: all 1s ease-in-out 0.1s;
                             }
                         }
-    
+
                         .about-heading:hover {
                             font-size: 2.5rem;
                             font-weight: 900;
                             margin-bottom: 30px;
                             text-align: center;
                             text-decoration: none;
-    
+
                             a {
                                 text-decoration: none;
                                 color: #0537ed;
                                 transition: all 1s ease-in-out 0.1s;
                             }
                         }
-    
+
                         .about-paragraph {
                             font-size: 2rem;
                             font-weight: 500;
@@ -1466,6 +1569,105 @@ main {
                             margin-bottom: 20px;
                             text-align: center;
                             max-width: 1140px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sub-banner-3 {
+            margin-top: 150px;
+    
+            .sub-banner-3-container {
+                display: flex;
+                flex-direction: column;
+                margin: 0px auto;
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+    
+                .sub-banner-3-container-img {
+                    width: 100%;
+    
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+                        transition: all 2s ease-in-out 0.1s;
+    
+                    }
+    
+                    img:hover {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+                        transform: skewX(10deg);
+                        transform: skewY(10deg);
+                        transition: all 2s ease-in-out 0.1s;
+    
+                    }
+    
+    
+                }
+    
+                .sub-banner-3-container-content {
+                    width: 100%;
+                    text-align: start;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+    
+                    .content-heading {
+                        font-size: 3rem;
+                        font-weight: 900;
+                        color: #121933;
+                        white-space: 50px;
+                        margin-bottom: 30px;
+                    }
+    
+                    .content-paragraph {
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        color: #121933;
+                        margin-bottom: 20px;
+                    }
+    
+                    .result-container {
+                        display: flex;
+                        flex-direction: column;
+    
+    
+                        .result-container-1 {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 20px;
+                            background-color: #fef4f6;
+                            border-radius: 20px;
+    
+                            img {
+                                max-width: 10%;
+                            }
+    
+                            .result-container-content {
+                                .content-heading {
+                                    font-size: 2rem;
+                                    font-weight: 900;
+                                    color: #121933;
+                                    white-space: 50px;
+                                    margin-bottom: 10px;
+                                }
+    
+                                .content-paragraph {
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                    color: #121933;
+                                    margin-bottom: 20px;
+                                }
+                            }
                         }
                     }
                 }
@@ -2094,6 +2296,7 @@ main {
             flex-direction: column;
             align-items: center;
             padding-bottom: 100px;
+
             .content-heading {
                 font-size: 4rem;
                 font-weight: 900;
@@ -2101,7 +2304,7 @@ main {
                 margin-bottom: 30px;
                 text-align: center;
             }
-    
+
             .content-paragraph {
                 font-size: 2rem;
                 font-weight: 500;
@@ -2111,14 +2314,14 @@ main {
                 max-width: 1140px;
                 margin-bottom: 50px;
             }
-    
+
             .about-tool-container {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                
+
                 gap: 30px;
                 margin: auto 60px;
-    
+
                 .about-tool-container-info {
                     background-color: #faf9f9;
                     display: inline-flex;
@@ -2127,56 +2330,57 @@ main {
                     justify-content: center;
                     border-radius: 40px;
                     height: 100%;
-                    
-    
+
+
                     .about-tool-container-img {
                         text-align: center;
                         width: 100px;
                         height: 50%;
-    
+
                         img {
                             padding-top: 20px;
                             max-width: 100px;
                             transition: all 1s ease-in-out 0.1s;
                         }
-    
+
                         img:hover {
                             padding-top: 20px;
                             max-width: 80px;
                             transition: all 1s ease-in-out 0.1s;
                         }
                     }
-    
+
                     .about-tool-container-content {
                         height: 50%;
                         padding: 40px 10px;
+
                         .about-heading {
                             font-size: 2.5rem;
                             font-weight: 900;
                             margin-bottom: 30px;
                             text-align: center;
                             text-decoration: none;
-    
+
                             a {
                                 text-decoration: none;
                                 transition: all 1s ease-in-out 0.1s;
                             }
                         }
-    
+
                         .about-heading:hover {
                             font-size: 2.5rem;
                             font-weight: 900;
                             margin-bottom: 30px;
                             text-align: center;
                             text-decoration: none;
-    
+
                             a {
                                 text-decoration: none;
                                 color: #0537ed;
                                 transition: all 1s ease-in-out 0.1s;
                             }
                         }
-    
+
                         .about-paragraph {
                             font-size: 2rem;
                             font-weight: 500;
@@ -2184,6 +2388,105 @@ main {
                             margin-bottom: 20px;
                             text-align: center;
                             max-width: 1140px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .sub-banner-3 {
+            margin-top: 150px;
+    
+            .sub-banner-3-container {
+                display: flex;
+                flex-direction: column;
+                margin: 0px auto;
+                width: 100%;
+                text-align: center;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+    
+                .sub-banner-3-container-img {
+                    width: 100%;
+    
+                    img {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+                        transition: all 2s ease-in-out 0.1s;
+    
+                    }
+    
+                    img:hover {
+                        max-width: 100%;
+                        height: auto;
+                        border-radius: 20px;
+                        transform: skewX(10deg);
+                        transform: skewY(10deg);
+                        transition: all 2s ease-in-out 0.1s;
+    
+                    }
+    
+    
+                }
+    
+                .sub-banner-3-container-content {
+                    width: 100%;
+                    text-align: start;
+                    align-items: center;
+                    display: flex;
+                    flex-direction: column;
+                    justify-content: center;
+                    
+    
+                    .content-heading {
+                        font-size: 3rem;
+                        font-weight: 900;
+                        color: #121933;
+                        white-space: 50px;
+                        margin-bottom: 30px;
+                    }
+    
+                    .content-paragraph {
+                        font-size: 1.5rem;
+                        font-weight: 500;
+                        color: #121933;
+                        margin-bottom: 20px;
+                    }
+    
+                    .result-container {
+                        display: flex;
+                        flex-direction: column;
+    
+    
+                        .result-container-1 {
+                            display: flex;
+                            align-items: center;
+                            margin-bottom: 20px;
+                            background-color: #fef4f6;
+                            border-radius: 20px;
+    
+                            img {
+                                max-width: 10%;
+                            }
+    
+                            .result-container-content {
+                                .content-heading {
+                                    font-size: 2rem;
+                                    font-weight: 900;
+                                    color: #121933;
+                                    white-space: 50px;
+                                    margin-bottom: 10px;
+                                }
+    
+                                .content-paragraph {
+                                    font-size: 1rem;
+                                    font-weight: 500;
+                                    color: #121933;
+                                    margin-bottom: 20px;
+                                }
+                            }
                         }
                     }
                 }
@@ -2714,6 +3017,7 @@ main {
             flex-direction: column;
             align-items: center;
             padding-bottom: 100px;
+
             .content-heading {
                 font-size: 4rem;
                 font-weight: 900;
@@ -2721,7 +3025,7 @@ main {
                 margin-bottom: 30px;
                 text-align: center;
             }
-    
+
             .content-paragraph {
                 font-size: 2rem;
                 font-weight: 500;
@@ -2731,14 +3035,14 @@ main {
                 max-width: 1140px;
                 margin-bottom: 50px;
             }
-    
+
             .about-tool-container {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
-                
+
                 gap: 30px;
                 margin: auto 60px;
-    
+
                 .about-tool-container-info {
                     background-color: #faf9f9;
                     display: inline-flex;
@@ -2747,56 +3051,57 @@ main {
                     justify-content: center;
                     border-radius: 40px;
                     height: 100%;
-                    
-    
+
+
                     .about-tool-container-img {
                         text-align: center;
                         width: 100px;
                         height: 50%;
-    
+
                         img {
                             padding-top: 20px;
                             max-width: 100px;
                             transition: all 1s ease-in-out 0.1s;
                         }
-    
+
                         img:hover {
                             padding-top: 20px;
                             max-width: 80px;
                             transition: all 1s ease-in-out 0.1s;
                         }
                     }
-    
+
                     .about-tool-container-content {
                         height: 50%;
                         padding: 40px 10px;
+
                         .about-heading {
                             font-size: 2.5rem;
                             font-weight: 900;
                             margin-bottom: 30px;
                             text-align: center;
                             text-decoration: none;
-    
+
                             a {
                                 text-decoration: none;
                                 transition: all 1s ease-in-out 0.1s;
                             }
                         }
-    
+
                         .about-heading:hover {
                             font-size: 2.5rem;
                             font-weight: 900;
                             margin-bottom: 30px;
                             text-align: center;
                             text-decoration: none;
-    
+
                             a {
                                 text-decoration: none;
                                 color: #0537ed;
                                 transition: all 1s ease-in-out 0.1s;
                             }
                         }
-    
+
                         .about-paragraph {
                             font-size: 1.5rem;
                             font-weight: 500;
