@@ -590,6 +590,34 @@ main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .resu
   color: #121933;
   margin-bottom: 20px;
 }
+main .package-container {
+  background-color: #f4fefe;
+  margin-top: 100px;
+}
+main .package-container .content-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: #121933;
+  white-space: 50px;
+  margin-bottom: 30px;
+  text-align: center;
+}
+main .package-container .package {
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+main .package-container .package label {
+  font-size: 2rem;
+  font-weight: 900;
+  color: #121933;
+  margin-top: 100px;
+  margin-bottom: 100px;
+  padding: 10px 20px;
+  background-color: white;
+}
 
 /* main section end */
 /* footer section start */
@@ -1010,7 +1038,7 @@ main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .resu
     transition: all 2s ease-in-out 0.1s;
   }
   main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-img img:hover {
-    max-width: 100%;
+    max-width: 110%;
     height: auto;
     border-radius: 20px;
     transform: skewX(10deg);
@@ -1922,7 +1950,7 @@ main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .resu
 /* responsive media query for large device*/
 @media screen and (min-width: 992px) and (max-width: 1400px) {
   header {
-    margin: 0px 0px;
+    margin: 0px 10px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;
@@ -2405,7 +2433,7 @@ main .sub-banner-3 .sub-banner-3-container .sub-banner-3-container-content .resu
 /* responsive media query for extra-large device*/
 @media screen and (min-width: 1400px) {
   header {
-    margin: 0px 0px;
+    margin: 0px 10px;
     display: flex;
     border-top: 2px solid blue;
     border-bottom: 2px solid blue;

@@ -704,7 +704,7 @@ main {
                 display: flex;
                 flex-direction: column;
                 justify-content: center;
-                
+
 
                 .content-heading {
                     font-size: 3rem;
@@ -756,6 +756,42 @@ main {
                     }
                 }
             }
+        }
+    }
+
+    .package-container {
+        background-color: #f4fefe;
+        margin-top: 100px;
+
+        .content-heading {
+            font-size: 4rem;
+            font-weight: 900;
+            color: #121933;
+            white-space: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+
+        }
+
+        .package {
+            text-align: center;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 20px;
+
+
+            label {
+                font-size: 2rem;
+                font-weight: 900;
+                color: #121933;
+                margin-top: 100px;
+                margin-bottom: 100px;
+                padding: 10px 20px;
+                background-color: white;
+
+            }
+
         }
     }
 
@@ -1325,7 +1361,7 @@ main {
                     }
 
                     img:hover {
-                        max-width: 100%;
+                        max-width: 110%;
                         height: auto;
                         border-radius: 20px;
                         transform: skewX(10deg);
@@ -1577,7 +1613,7 @@ main {
 
         .sub-banner-3 {
             margin-top: 150px;
-    
+
             .sub-banner-3-container {
                 display: flex;
                 flex-direction: column;
@@ -1587,18 +1623,18 @@ main {
                 justify-content: center;
                 align-items: center;
                 gap: 20px;
-    
+
                 .sub-banner-3-container-img {
                     width: 100%;
-    
+
                     img {
                         max-width: 100%;
                         height: auto;
                         border-radius: 20px;
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
+
                     img:hover {
                         max-width: 100%;
                         height: auto;
@@ -1606,12 +1642,12 @@ main {
                         transform: skewX(10deg);
                         transform: skewY(10deg);
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
-    
+
+
                 }
-    
+
                 .sub-banner-3-container-content {
                     width: 100%;
                     text-align: start;
@@ -1619,8 +1655,8 @@ main {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    
-    
+
+
                     .content-heading {
                         font-size: 3rem;
                         font-weight: 900;
@@ -1628,30 +1664,30 @@ main {
                         white-space: 50px;
                         margin-bottom: 30px;
                     }
-    
+
                     .content-paragraph {
                         font-size: 1.5rem;
                         font-weight: 500;
                         color: #121933;
                         margin-bottom: 20px;
                     }
-    
+
                     .result-container {
                         display: flex;
                         flex-direction: column;
-    
-    
+
+
                         .result-container-1 {
                             display: flex;
                             align-items: center;
                             margin-bottom: 20px;
                             background-color: #fef4f6;
                             border-radius: 20px;
-    
+
                             img {
                                 max-width: 10%;
                             }
-    
+
                             .result-container-content {
                                 .content-heading {
                                     font-size: 2rem;
@@ -1660,7 +1696,7 @@ main {
                                     white-space: 50px;
                                     margin-bottom: 10px;
                                 }
-    
+
                                 .content-paragraph {
                                     font-size: 1rem;
                                     font-weight: 500;
@@ -2396,7 +2432,7 @@ main {
 
         .sub-banner-3 {
             margin-top: 150px;
-    
+
             .sub-banner-3-container {
                 display: flex;
                 flex-direction: column;
@@ -2406,18 +2442,18 @@ main {
                 justify-content: center;
                 align-items: center;
                 gap: 20px;
-    
+
                 .sub-banner-3-container-img {
                     width: 100%;
-    
+
                     img {
                         max-width: 100%;
                         height: auto;
                         border-radius: 20px;
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
+
                     img:hover {
                         max-width: 100%;
                         height: auto;
@@ -2425,12 +2461,12 @@ main {
                         transform: skewX(10deg);
                         transform: skewY(10deg);
                         transition: all 2s ease-in-out 0.1s;
-    
+
                     }
-    
-    
+
+
                 }
-    
+
                 .sub-banner-3-container-content {
                     width: 100%;
                     text-align: start;
@@ -2438,8 +2474,8 @@ main {
                     display: flex;
                     flex-direction: column;
                     justify-content: center;
-                    
-    
+
+
                     .content-heading {
                         font-size: 3rem;
                         font-weight: 900;
@@ -2447,30 +2483,30 @@ main {
                         white-space: 50px;
                         margin-bottom: 30px;
                     }
-    
+
                     .content-paragraph {
                         font-size: 1.5rem;
                         font-weight: 500;
                         color: #121933;
                         margin-bottom: 20px;
                     }
-    
+
                     .result-container {
                         display: flex;
                         flex-direction: column;
-    
-    
+
+
                         .result-container-1 {
                             display: flex;
                             align-items: center;
                             margin-bottom: 20px;
                             background-color: #fef4f6;
                             border-radius: 20px;
-    
+
                             img {
                                 max-width: 10%;
                             }
-    
+
                             .result-container-content {
                                 .content-heading {
                                     font-size: 2rem;
@@ -2479,7 +2515,7 @@ main {
                                     white-space: 50px;
                                     margin-bottom: 10px;
                                 }
-    
+
                                 .content-paragraph {
                                     font-size: 1rem;
                                     font-weight: 500;
@@ -2504,7 +2540,7 @@ main {
 /* responsive media query for large device*/
 @media screen and (min-width:992px) and (max-width:1400px) {
     header {
-        margin: 0px 0px;
+        margin: 0px 10px;
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
@@ -3128,7 +3164,7 @@ main {
 /* responsive media query for extra-large device*/
 @media screen and (min-width:1400px) {
     header {
-        margin: 0px 0px;
+        margin: 0px 10px;
         display: flex;
         border-top: 2px solid blue;
         border-bottom: 2px solid blue;
