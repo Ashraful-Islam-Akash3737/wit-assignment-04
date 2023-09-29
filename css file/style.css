@@ -860,6 +860,60 @@ main .customers-review .quick-contact .quick-contact-content .btn-primary:hover 
   text-decoration: none;
   transition: all 2s ease-in-out 0.1s;
 }
+main .free-trial {
+  background-image: url("../assets/images/cta-bg4.png");
+  height: 350px;
+  width: 100%;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+main .free-trial .content-heading {
+  font-size: 4rem;
+  font-weight: 900;
+  color: white;
+  white-space: 50px;
+  margin-bottom: 30px;
+}
+main .free-trial .content-paragraph {
+  font-size: 2rem;
+  font-weight: 500;
+  color: white;
+  margin-bottom: 40px;
+}
+main .free-trial .btn-primary {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 38px 16px 38px;
+  background-color: #1d06f0;
+  border-radius: 40px 40px 40px 40px;
+  border: 1px solid transparent;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .free-trial .btn-primary a {
+  color: #fafafc;
+  text-decoration: none;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .free-trial .btn-primary:hover {
+  font-size: 2rem;
+  font-weight: 700;
+  text-transform: capitalize;
+  padding: 18px 38px 16px 38px;
+  background-color: #fafafc;
+  border-radius: 40px 40px 40px 40px;
+  border: 1px solid #1d06f0;
+  transition: all 2s ease-in-out 0.1s;
+}
+main .free-trial .btn-primary:hover a {
+  color: #1d06f0;
+  text-decoration: none;
+  transition: all 2s ease-in-out 0.1s;
+}
 
 /* main section end */
 /* footer section start */
