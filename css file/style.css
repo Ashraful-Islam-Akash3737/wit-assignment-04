@@ -408,16 +408,16 @@ main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .butt
   text-decoration: none;
   transition: all 2s ease-in-out 0.1s;
 }
-main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a {
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a {
   text-decoration: none;
   font-size: 1.5rem;
   font-weight: 600;
   transition: all 2s ease-in-out 0.1s;
 }
-main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a i {
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a i {
   margin-left: 20px;
 }
-main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a:hover {
+main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a:hover {
   text-decoration: none;
   font-size: 1.5rem;
   color: #1239c5;
@@ -462,6 +462,7 @@ main .about-tool .about-tool-container .about-tool-container-info {
   justify-content: center;
   border-radius: 40px;
   height: 100%;
+  box-shadow: 5px 5px 4px gray;
 }
 main .about-tool .about-tool-container .about-tool-container-info .about-tool-container-img {
   text-align: center;
@@ -833,6 +834,7 @@ main .customers-review .quick-contact .quick-contact-content textarea {
 main .customers-review .quick-contact .quick-contact-content .btn-primary {
   font-size: 2rem;
   font-weight: 700;
+  padding-bottom: 100px;
   text-transform: capitalize;
   padding: 18px 38px 16px 38px;
   background-color: #1d06f0;
@@ -1430,16 +1432,16 @@ main .free-trial .btn-primary:hover a {
     text-decoration: none;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a i {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a i {
     margin-left: 20px;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a:hover {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a:hover {
     text-decoration: none;
     font-size: 1.5rem;
     color: #1239c5;
@@ -1483,6 +1485,7 @@ main .free-trial .btn-primary:hover a {
     justify-content: center;
     border-radius: 40px;
     height: 100%;
+    box-shadow: 5px 5px 4px gray;
   }
   main .about-tool .about-tool-container .about-tool-container-info .about-tool-container-img {
     text-align: center;
@@ -2392,16 +2395,16 @@ main .free-trial .btn-primary:hover a {
     text-decoration: none;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a i {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a i {
     margin-left: 20px;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a:hover {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a:hover {
     text-decoration: none;
     font-size: 1.5rem;
     color: #1239c5;
@@ -2445,6 +2448,7 @@ main .free-trial .btn-primary:hover a {
     justify-content: center;
     border-radius: 40px;
     height: 100%;
+    box-shadow: 5px 5px 5px black;
   }
   main .about-tool .about-tool-container .about-tool-container-info .about-tool-container-img {
     text-align: center;
@@ -3289,16 +3293,16 @@ main .free-trial .btn-primary:hover a {
     text-decoration: none;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a i {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a i {
     margin-left: 20px;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a:hover {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a:hover {
     text-decoration: none;
     font-size: 1.5rem;
     color: #1239c5;
@@ -3342,6 +3346,7 @@ main .free-trial .btn-primary:hover a {
     justify-content: center;
     border-radius: 40px;
     height: 100%;
+    box-shadow: 5px 5px 4px gray;
   }
   main .about-tool .about-tool-container .about-tool-container-info .about-tool-container-img {
     text-align: center;
@@ -3693,16 +3698,16 @@ main .free-trial .btn-primary:hover a {
     text-decoration: none;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a {
     text-decoration: none;
     font-size: 1.5rem;
     font-weight: 600;
     transition: all 2s ease-in-out 0.1s;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a i {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a i {
     margin-left: 20px;
   }
-  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .free-trial a:hover {
+  main .sub-banner-2 .sub-banner-2-container .sub-banner-2-container-content .button-container .start-free-trial a:hover {
     text-decoration: none;
     font-size: 1.5rem;
     color: #1239c5;
