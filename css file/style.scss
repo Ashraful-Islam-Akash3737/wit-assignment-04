@@ -20,6 +20,7 @@ header {
     z-index: 11;
     position: relative;
 
+
     .header {
         display: none;
         border: 1px solid salmon;
@@ -892,7 +893,8 @@ main {
         }
     }
 
-    .customers-review {
+    .customers-rating {
+        margin-bottom: 100px;
 
         .content-heading {
             font-size: 4rem;
@@ -905,14 +907,14 @@ main {
             margin-top: 30px;
         }
 
-        .customers-review-container {
+        .customers-rating-container {
             display: grid;
             grid-template-columns: repeat(4, 1fr);
             gap: 20px;
             margin: 0px 30px;
         }
 
-        .customers-review-content {
+        .customers-rating-content {
             background-color: white;
             padding: 20px 20px;
             border-radius: 30px;
@@ -945,12 +947,14 @@ main {
             .stars {
 
                 margin-top: 30px;
+
                 i {
                     font-size: 1rem;
                 }
 
-                
+
             }
+
             h3 {
                 font-size: 1.5rem;
                 margin-bottom: 20px;
@@ -963,7 +967,137 @@ main {
         }
     }
 
+    .customers-review {
+        background-image: url("../assets/images/bg-back.jpg");
+        height: 1000px;
+        width: 100%;
+        background-attachment: fixed;
+        color: white;
+        display: flex;
+
+        .any-question {
+            width: 50%;
+            overflow-x: hidden;
+            gap: 50px;
+
+            .content-heading {
+                font-size: 3rem;
+                font-weight: 900;
+
+                white-space: 50px;
+                margin-bottom: 30px;
+                text-align: center;
+                margin-bottom: 80px;
+                margin-top: 30px;
+            }
+
+            .content-paragraph {
+                font-size: 2rem;
+                font-weight: 500;
+                text-align: center;
+                margin-bottom: 30px;
+            }
+
+
+
+            .question {
+                margin: 50px 20px;
+                border-radius: 10px 10px 10px 10px;
+                background-color: #131D31;
+                padding: 14px 25px;
+
+                h2 {
+                    font-size: 1.5rem;
+                    margin-bottom: 20px;
+                }
+
+                p {
+                    font-size: 1rem;
+                }
+            }
+
+        }
+    }
+
+    .quick-contact {
+        width: 50%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        background-color: white;
+        margin: 50px 50px;
+        color: black;
+        border-radius: 30px;
+        .content-heading {
+            font-size: 3rem;
+            font-weight: 900;
+            white-space: 50px;
+            margin-bottom: 30px;
+            text-align: center;
+            margin-bottom: 80px;
+            margin-top: 30px;
+        }
+
+        .quick-contact-content {
+
+            flex-direction: column;
+            gap: 30px;
+            display: flex;
+            input{
+                padding: 20px 10px;
+                font-size: 1.5rem;
+                border-radius: 10px;
+                border: 1px solid gray;
+            }
+            textarea{
+                padding: 20px 10px;
+                border-radius: 10px;
+                
+            }
+            .btn-primary {
+                font-size: 2rem;
+                font-weight: 700;
+
+                text-transform: capitalize;
+                padding: 18px 38px 16px 38px;
+                background-color: #1d06f0;
+                border-radius: 40px 40px 40px 40px;
+                border: 1px solid transparent;
+                transition: all 2s ease-in-out 0.1s;
+
+                a {
+                    color: #fafafc;
+                    text-decoration: none;
+                    transition: all 2s ease-in-out 0.1s;
+
+                }
+            }
+
+            .btn-primary:hover {
+                font-size: 2rem;
+                font-weight: 700;
+
+                text-transform: capitalize;
+                padding: 18px 38px 16px 38px;
+                background-color: #fafafc;
+                border-radius: 40px 40px 40px 40px;
+                border: 1px solid #1d06f0;
+                transition: all 2s ease-in-out 0.1s;
+
+                a {
+                    color: #1d06f0;
+                    text-decoration: none;
+                    transition: all 2s ease-in-out 0.1s;
+
+                }
+            }
+        }
+    }
+
 }
+
+
 
 /* main section end */
 
@@ -2007,7 +2141,8 @@ main {
             }
         }
 
-        .customers-review {
+        .customers-rating {
+            margin-bottom: 100px;
 
             .content-heading {
                 font-size: 4rem;
@@ -2019,15 +2154,15 @@ main {
                 margin-bottom: 80px;
                 margin-top: 30px;
             }
-    
-            .customers-review-container {
+
+            .customers-rating-container {
                 display: grid;
                 grid-template-columns: repeat(1, 1fr);
                 gap: 20px;
                 margin: 0px 30px;
             }
-    
-            .customers-review-content {
+
+            .customers-rating-content {
                 background-color: white;
                 padding: 20px 20px;
                 border-radius: 30px;
@@ -2035,46 +2170,48 @@ main {
                 box-shadow: 5px 5px 6px gray;
                 border-top: 1px solid rgb(128, 128, 128);
                 border-left: 1px solid gray;
-    
+
                 i {
                     font-size: 3.5rem;
                     color: black;
                     transition: all 1.5s ease-in-out 0.1s;
                     margin-bottom: 30px;
                 }
-    
+
                 i:hover {
                     font-size: 3.5rem;
                     color: #075ef2;
                     transition: all 1.5s ease-in-out 0.1s;
                 }
-    
-    
+
+
                 .content-paragraph {
                     font-size: 2rem;
                     font-weight: 500;
                     color: #121933;
                     margin-bottom: 30px;
                 }
-    
+
                 .stars {
-    
+
                     margin-top: 30px;
+
                     i {
                         font-size: 1rem;
                     }
-    
-                    
+
+
                 }
+
                 h3 {
                     font-size: 1.5rem;
                     margin-bottom: 20px;
                 }
-    
+
                 p {
                     font-size: 1.3rem;
                 }
-    
+
             }
         }
 
@@ -3030,7 +3167,8 @@ main {
             }
         }
 
-        .customers-review {
+        .customers-rating {
+            margin-bottom: 100px;
 
             .content-heading {
                 font-size: 4rem;
@@ -3042,15 +3180,15 @@ main {
                 margin-bottom: 80px;
                 margin-top: 30px;
             }
-    
-            .customers-review-container {
+
+            .customers-rating-container {
                 display: grid;
                 grid-template-columns: repeat(2, 1fr);
                 gap: 20px;
                 margin: 0px 30px;
             }
-    
-            .customers-review-content {
+
+            .customers-rating-content {
                 background-color: white;
                 padding: 20px 20px;
                 border-radius: 30px;
@@ -3058,46 +3196,48 @@ main {
                 box-shadow: 5px 5px 6px gray;
                 border-top: 1px solid rgb(128, 128, 128);
                 border-left: 1px solid gray;
-    
+
                 i {
                     font-size: 3.5rem;
                     color: black;
                     transition: all 1.5s ease-in-out 0.1s;
                     margin-bottom: 30px;
                 }
-    
+
                 i:hover {
                     font-size: 3.5rem;
                     color: #075ef2;
                     transition: all 1.5s ease-in-out 0.1s;
                 }
-    
-    
+
+
                 .content-paragraph {
                     font-size: 2rem;
                     font-weight: 500;
                     color: #121933;
                     margin-bottom: 30px;
                 }
-    
+
                 .stars {
-    
+
                     margin-top: 30px;
+
                     i {
                         font-size: 1rem;
                     }
-    
-                    
+
+
                 }
+
                 h3 {
                     font-size: 1.5rem;
                     margin-bottom: 20px;
                 }
-    
+
                 p {
                     font-size: 1.3rem;
                 }
-    
+
             }
         }
 
