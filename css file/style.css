@@ -795,7 +795,7 @@ main .customers-review .any-question .question h2 {
 main .customers-review .any-question .question p {
   font-size: 1rem;
 }
-main .quick-contact {
+main .customers-review .quick-contact {
   width: 50%;
   display: flex;
   align-items: center;
@@ -806,7 +806,7 @@ main .quick-contact {
   color: black;
   border-radius: 30px;
 }
-main .quick-contact .content-heading {
+main .customers-review .quick-contact .content-heading {
   font-size: 3rem;
   font-weight: 900;
   white-space: 50px;
@@ -815,22 +815,22 @@ main .quick-contact .content-heading {
   margin-bottom: 80px;
   margin-top: 30px;
 }
-main .quick-contact .quick-contact-content {
+main .customers-review .quick-contact .quick-contact-content {
   flex-direction: column;
   gap: 30px;
   display: flex;
 }
-main .quick-contact .quick-contact-content input {
+main .customers-review .quick-contact .quick-contact-content input {
   padding: 20px 10px;
   font-size: 1.5rem;
   border-radius: 10px;
   border: 1px solid gray;
 }
-main .quick-contact .quick-contact-content textarea {
+main .customers-review .quick-contact .quick-contact-content textarea {
   padding: 20px 10px;
   border-radius: 10px;
 }
-main .quick-contact .quick-contact-content .btn-primary {
+main .customers-review .quick-contact .quick-contact-content .btn-primary {
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -840,12 +840,12 @@ main .quick-contact .quick-contact-content .btn-primary {
   border: 1px solid transparent;
   transition: all 2s ease-in-out 0.1s;
 }
-main .quick-contact .quick-contact-content .btn-primary a {
+main .customers-review .quick-contact .quick-contact-content .btn-primary a {
   color: #fafafc;
   text-decoration: none;
   transition: all 2s ease-in-out 0.1s;
 }
-main .quick-contact .quick-contact-content .btn-primary:hover {
+main .customers-review .quick-contact .quick-contact-content .btn-primary:hover {
   font-size: 2rem;
   font-weight: 700;
   text-transform: capitalize;
@@ -855,7 +855,7 @@ main .quick-contact .quick-contact-content .btn-primary:hover {
   border: 1px solid #1d06f0;
   transition: all 2s ease-in-out 0.1s;
 }
-main .quick-contact .quick-contact-content .btn-primary:hover a {
+main .customers-review .quick-contact .quick-contact-content .btn-primary:hover a {
   color: #1d06f0;
   text-decoration: none;
   transition: all 2s ease-in-out 0.1s;
@@ -1719,6 +1719,122 @@ main .quick-contact .quick-contact-content .btn-primary:hover a {
   main .customers-rating .customers-rating-content p {
     font-size: 1.3rem;
   }
+  main .customers-review {
+    background-image: url("../assets/images/bg-back.jpg");
+    height: 1800px;
+    width: 100%;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  main .customers-review .any-question {
+    width: 100%;
+    overflow-x: hidden;
+    gap: 30px;
+    height: 1000px;
+  }
+  main .customers-review .any-question .content-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    white-space: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  main .customers-review .any-question .content-paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  main .customers-review .any-question .question {
+    margin: 50px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #131D31;
+    padding: 14px 25px;
+  }
+  main .customers-review .any-question .question h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  main .customers-review .any-question .question p {
+    font-size: 1rem;
+  }
+  main .customers-review .quick-contact {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 50px 0px;
+    color: black;
+    border-radius: 30px;
+    height: 800px;
+  }
+  main .customers-review .quick-contact .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    white-space: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  main .customers-review .quick-contact .quick-contact-content {
+    margin: 0px 50px;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+  }
+  main .customers-review .quick-contact .quick-contact-content input {
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 0px 20px;
+    text-align: center;
+  }
+  main .customers-review .quick-contact .quick-contact-content textarea {
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 20px;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #1d06f0;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary a {
+    color: #fafafc;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary:hover {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 50%;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #fafafc;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #1d06f0;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary:hover a {
+    color: #1d06f0;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
 }
 /* responsive media query for medium device*/
 @media screen and (min-width: 576px) and (max-width: 992px) {
@@ -2512,6 +2628,122 @@ main .quick-contact .quick-contact-content .btn-primary:hover a {
   }
   main .customers-rating .customers-rating-content p {
     font-size: 1.3rem;
+  }
+  main .customers-review {
+    background-image: url("../assets/images/bg-back.jpg");
+    height: 1800px;
+    width: 100%;
+    background-attachment: fixed;
+    color: white;
+    display: flex;
+    flex-direction: column;
+  }
+  main .customers-review .any-question {
+    width: 100%;
+    overflow-x: hidden;
+    gap: 30px;
+    height: 1000px;
+  }
+  main .customers-review .any-question .content-heading {
+    font-size: 2rem;
+    font-weight: 900;
+    white-space: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  main .customers-review .any-question .content-paragraph {
+    font-size: 1rem;
+    font-weight: 500;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  main .customers-review .any-question .question {
+    margin: 50px 0px;
+    border-radius: 10px 10px 10px 10px;
+    background-color: #131D31;
+    padding: 14px 25px;
+  }
+  main .customers-review .any-question .question h2 {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+  }
+  main .customers-review .any-question .question p {
+    font-size: 1rem;
+  }
+  main .customers-review .quick-contact {
+    width: 100%;
+    height: 800px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: white;
+    margin: 50px 0px;
+    color: black;
+    border-radius: 30px;
+  }
+  main .customers-review .quick-contact .content-heading {
+    font-size: 3rem;
+    font-weight: 900;
+    white-space: 50px;
+    margin-bottom: 30px;
+    text-align: center;
+    margin-bottom: 80px;
+    margin-top: 30px;
+  }
+  main .customers-review .quick-contact .quick-contact-content {
+    margin: 0px 50px;
+    flex-direction: column;
+    gap: 30px;
+    display: flex;
+  }
+  main .customers-review .quick-contact .quick-contact-content input {
+    padding: 10px 10px;
+    font-size: 1.5rem;
+    border-radius: 10px;
+    border: 1px solid gray;
+    margin: 0px 20px;
+    text-align: center;
+  }
+  main .customers-review .quick-contact .quick-contact-content textarea {
+    padding: 10px 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin: 0px 20px;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 30px;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #1d06f0;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid transparent;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary a {
+    color: #fafafc;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary:hover {
+    font-size: 2rem;
+    font-weight: 700;
+    width: 50%;
+    text-transform: capitalize;
+    padding: 18px 38px 16px 38px;
+    background-color: #fafafc;
+    border-radius: 40px 40px 40px 40px;
+    border: 1px solid #1d06f0;
+    transition: all 2s ease-in-out 0.1s;
+  }
+  main .customers-review .quick-contact .quick-contact-content .btn-primary:hover a {
+    color: #1d06f0;
+    text-decoration: none;
+    transition: all 2s ease-in-out 0.1s;
   }
 }
 /* responsive media query for large device*/
