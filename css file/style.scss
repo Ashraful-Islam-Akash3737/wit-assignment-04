@@ -1329,6 +1329,32 @@ footer {
 
         }
     }
+
+    .copy-right-container{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 40px 0px;
+        border-top: 1px solid gray;
+        padding-top: 30px;
+        .copy-right-container-left{
+            h2{
+                
+                
+            }
+            
+        }
+        .copy-right-container-right{
+            display: flex;
+            gap: 100px;
+            p{
+                font-size: 1.5rem;
+            }
+            p:hover{
+                color: #0537ed;
+            }
+        }
+    }
 }
 
 /* footer section end */
@@ -2807,6 +2833,34 @@ footer {
                     }
                 }
     
+            }
+        }
+
+        .copy-right-container{
+            display: flex;
+            justify-content: space-around;
+            flex-direction: column;
+            align-items: center;
+            margin: 40px 0px;
+            border-top: 1px solid gray;
+            padding-top: 30px;
+            gap: 50px;
+            .copy-right-container-left{
+                h2{
+                    
+                    
+                }
+                
+            }
+            .copy-right-container-right{
+                display: flex;
+                gap: 50px;
+                p{
+                    font-size: 1.5rem;
+                }
+                p:hover{
+                    color: #0537ed;
+                }
             }
         }
     }
